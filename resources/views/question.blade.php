@@ -110,7 +110,7 @@
 
     {{-- 結果ボタン --}}
     <div>
-    <input type="button" value="結果">
+    <input type="button" value="結果" href="">
   </div>
 </div>
 

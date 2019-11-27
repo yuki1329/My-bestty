@@ -204,3 +204,24 @@
   .btn-wrapper {
       text-align: center;
     }
+  /* アイテムのジャンル名 */
+    .result-flex-item-name{
+      list-style: none;
+      display: inline;
+      margin: 50px 145px;
+      font-size: 40px;
+    }
+  /* アイテムのイメージ画像 */
+    .result-flex-img{
+      list-style: none;
+      display: inline;
+      margin: 0px 110px;
+    }
+  /* タイプのイメージ画像 */
+    #result-img{
+      text-align: center;
+      padding: 30px;
+    }
+    .result-item-brand{
+      display: inline;
+    }
