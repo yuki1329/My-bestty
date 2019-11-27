@@ -21,7 +21,7 @@
 
     <header class="site-header">
       <h2 class="header-character"> BESTTY</h2>
-    </header><br><br>
+    </header>
     <div class="menu2">
         <div class="menuWrapper">
           <span class="menuBtn">
@@ -33,7 +33,7 @@
           <li><a href="#">ちんちん</a></li>
         </ul>
       </div>
-      
+
 <!-- 内容 -->
 <div class="body-all">
     <div>
@@ -107,7 +107,8 @@
     <input type="radio" class="btn js-scroll">NO</a>
   </div>
     </div><br>
-    
+
+    {{-- 結果ボタン --}}
     <div>
     <input type="button" value="結果">
   </div>
