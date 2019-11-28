@@ -47,26 +47,31 @@
         </ul>
       </div>
 
-      <div class="">
-        <ul class="result-item-brand1">
+      <div class="row p-3 justify-content-around">
+        <ul class="col-3 border border-success">
           <li>コスメ</li>
           <li>アクセサリー</li>
           <li>洋服</li>
         </ul>
 
-        <ul class="result-item-brand2">
+        <ul class="col-3 border border-success">
           <li>コスメ</li>
           <li>アクセサリー</li>
           <li>洋服</li>
+          <li>ああああ</li>
         </ul>
 
-        <ul class="result-item-brand3">
+        <ul class="col-3 border border-success">
           <li>コスメ</li>
           <li>アクセサリー</li>
           <li>洋服</li>
         </ul>
       </div>
-
+      <div class="top-btn">
+        <button>
+          トップに戻る
+        </button>
+      </div>
 </div>
 
 

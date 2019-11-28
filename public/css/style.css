@@ -225,3 +225,9 @@
     .result-item-brand{
       display: inline;
     }
+  ul{
+    list-style: none;
+  }
+  .top-btn{
+    text-align: center;
+  }
