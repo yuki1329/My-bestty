@@ -38,26 +38,36 @@
 <div class="body-all">
     <div>
     <h2>1.ものを選ぶ基準はデザインより機能性だ</h2>
+    <fieldset>
       <div class="btn-wrapper" id="#1">
-      <input type="radio" class="btn js-scroll">YES</a>
-      <input type="radio" class="btn js-scroll">NO</a>
+          <input id="item-1" class="radio-inline__input" type="radio" name="accessible-radio" value="item-1" checked="checked"/>
+          <label class="radio-inline__label" for="item-1">
+              Item 1
+          </label>
+          <input id="item-2" class="radio-inline__input" type="radio" name="accessible-radio" value="item-2"/>
+          <label class="radio-inline__label" for="item-2">
+              Item 2
+          </label>
+
     </div>
+  </fieldset>
     </div><br><br>
 
     <div>
     <h2>2.あなたが思う相手の良い点は、落ち着いていて知的なところである</h2>
-      <div class="btn-wrapper" id="#2">
-      <input type="radio" class="btn js-scroll">YES</a>
-      <input type="radio" class="btn js-scroll">NO</a>
-    </div>
-    </div><br><br>
+    <fieldset>
+      <div class="btn-wrapper" id="#1">
+          <input id="item-1" class="radio-inline__input" type="radio" name="accessible-radio" value="item-1" checked="checked"/>
+          <label class="radio-inline__label" for="item-1">
+              Item 1
+          </label>
+          <input id="item-2" class="radio-inline__input" type="radio" name="accessible-radio" value="item-2"/>
+          <label class="radio-inline__label" for="item-2">
+              Item 2
+          </label>
 
-    <div>
-    <h2>3.何事にもひとつひとつ丁寧に行う</h2>
-    <div class="btn-wrapper" id="#3">
-      <input type="radio" class="btn js-scroll">YES</a>
-      <input type="radio" class="btn js-scroll">NO</a>
     </div>
+  </fieldset>
     </div><br><br>
 
     <div>

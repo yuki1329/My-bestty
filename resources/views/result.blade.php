@@ -12,24 +12,67 @@
 {{-- ヘッダー --}}
 <header class="site-header">
         <h2 class="header-character"> BESTTY</h2>
-      </header>
-      <div class="menu2">
-          <div class="menuWrapper">
-            <span class="menuBtn">
-            </span>
+</header>
+    <div class="menu2">
+        <div class="menuWrapper">
+          <span class="menuBtn">
+          </span>
           </div>
           <ul id="menu">
             <li><a href="#">診断をやめる</a></li>
             <li><a href="#">使い方</a></li>
             <li><a href="#">ちんちん</a></li>
           </ul>
-        </div>
+    </div><br><br><br><br><br>
 
 {{-- 内容 --}}
+<div class="result-all">
+  <div id="result-img">
+  <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
+      <img src="{{ asset('img/logo.jpg') }}" alt="結果画面の画像" >
+      <h1>野球好き系女子</h1>
+  </div>
+      <div>
+        <ul>
+          <li class="result-flex-item-name">コスメ</li>
+          <li class="result-flex-item-name">アクセサリー</li>
+          <li class="result-flex-item-name">洋服</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="">
+          <li class="result-flex-img"><img src="{{ asset('img/youhuku.jpeg') }}" alt="コスメ"></li>
+          <li class="result-flex-img"><img src="{{ asset('img/youhuku.jpeg') }}" alt="アクセサリー"></li>
+          <li class="result-flex-img"><img src="{{ asset('img/youhuku.jpeg') }}" alt="洋服"></li>
+        </ul>
+      </div>
 
+      <div class="row p-3 justify-content-around">
+        <ul class="col-3 border border-success">
+          <li>コスメ</li>
+          <li>アクセサリー</li>
+          <li>洋服</li>
+        </ul>
 
+        <ul class="col-3 border border-success">
+          <li>コスメ</li>
+          <li>アクセサリー</li>
+          <li>洋服</li>
+          <li>ああああ</li>
+        </ul>
 
-
+        <ul class="col-3 border border-success">
+          <li>コスメ</li>
+          <li>アクセサリー</li>
+          <li>洋服</li>
+        </ul>
+      </div>
+      <div class="top-btn">
+        <button>
+          トップに戻る
+        </button>
+      </div>
+</div>
 
 
 
