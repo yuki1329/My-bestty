@@ -46,23 +46,27 @@
           <li class="result-flex-img"><img src="{{ asset('img/youhuku.jpeg') }}" alt="洋服"></li>
         </ul>
       </div>
-      <div>
+
+      <div class="">
         <ul class="result-item-brand1">
           <li>コスメ</li>
           <li>アクセサリー</li>
           <li>洋服</li>
         </ul>
+
         <ul class="result-item-brand2">
           <li>コスメ</li>
           <li>アクセサリー</li>
           <li>洋服</li>
         </ul>
+
         <ul class="result-item-brand3">
           <li>コスメ</li>
           <li>アクセサリー</li>
           <li>洋服</li>
         </ul>
       </div>
+
 </div>
 
 
