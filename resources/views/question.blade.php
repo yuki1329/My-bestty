@@ -176,6 +176,7 @@
     {{-- 結果ボタン --}}
     <div class="text-center question-result-btn">
     <input type="button" value="結果" href="">
+    
 </div>
 </fieldset>
 </div>
