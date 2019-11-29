@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('question');
+    return view('fe-question');
     Route::get('/', function () {
         return view('result');
 });
