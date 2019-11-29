@@ -17,6 +17,7 @@
     font-size: 12px;
     padding-top: 35px;
     background-color: #000000;
+    z-index: 7;
   }
   
   .menuBtn::after,
@@ -85,7 +86,6 @@
     padding: 15px;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.5);
   }
   
   /* 位置がずれるので調整 */
@@ -184,6 +184,7 @@
       justify-content: space-between;
       width: 100%;
       height: 70px;
+      z-index: 7;
   }
   
   /* ヘッダーについてる文字のデザイン */
@@ -205,7 +206,7 @@
       text-align: center;
       display: block;
       position: relative;
-      margin: 40px auto;
+      margin: 30px auto;
       height: auto;
       width: 500px;
       padding: 20px;
@@ -238,14 +239,6 @@
     text-align: center;
   }
 
-
-
-
-
-
-
-
-  
   .radio-inline__input {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
@@ -257,6 +250,7 @@
     margin-right: 18px;
     border-radius: 3px;
     transition: all .2s;
+    font-size: 28px;
 }
 
 .radio-inline__input:checked + .radio-inline__label {
@@ -277,3 +271,231 @@ fieldset {
   padding: 0;
   margin: 0;
   text-align: center;
+}
+
+
+
+.radio-inline__input2 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label2 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input2:checked + .radio-inline__label2 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input2:focus + .radio-inline__label2 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+.radio-inline__input3 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label3 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input3:checked + .radio-inline__label3 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input3:focus + .radio-inline__label3 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+.radio-inline__input4 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label4 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input4:checked + .radio-inline__label4 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input4:focus + .radio-inline__label4 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+.radio-inline__input5 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label5 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input5:checked + .radio-inline__label5 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input5:focus + .radio-inline__label5 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+.radio-inline__input6 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label6 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input6:checked + .radio-inline__label6 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input6:focus + .radio-inline__label6 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+
+.radio-inline__input7 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label7 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input7:checked + .radio-inline__label7 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input7:focus + .radio-inline__label7 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+
+.radio-inline__input8 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label8 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input8:checked + .radio-inline__label8 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input8:focus + .radio-inline__label8 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+
+.radio-inline__input9 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label9 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input9:checked + .radio-inline__label9 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input9:focus + .radio-inline__label9 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
