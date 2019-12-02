@@ -12,11 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('fe-question');
-    Route::get('/', function () {
-        return view('result');
-});
-});
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+    return view('howto');
+});
+
