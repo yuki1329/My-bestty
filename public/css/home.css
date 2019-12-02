@@ -1,49 +1,4 @@
-.howto-all{
-  /* display: flex;
-  justify-content: center; */
-  text-align: center;
-  margin: 60px;
-}
 
-.img-denkyu{
-  height: 100px;
-}
-
-.howto-title{
-  font-weight: lighter;
-  font-family: 'Titillium Web', sans-serif;
-  color: rgb(85, 85, 85);
-}
-
-.howto-content{
-  width: 80%;
-  margin: 30px auto;
-  /* margin-bottom: 40px; */
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-}
-
-.howto-text{
-  margin-top: 40px;
-}
-.img-chose{
-  height: 200px;
-}
-
-.img-answer{
-  height: 200px;
-}
-
-.img-result{
-  height: 200px;
-}
-
-.btn-return{
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-}
 /* footerの編集 */
 .footer {
   margin-top: 50px;
@@ -119,42 +74,82 @@
 }
 
 .present-img{
-  width :200px;
+  width: 200px;
   height:200px;
 }
 
-.img-present2{
-  width :350px;
-  height:350px;
-  padding:50px;;
+.top-img-present{
+  display: flex;
+  justify-content: center;
+  padding-top:30px;
+}
+
+.gender-chose{
+  padding-top: 30px;
+}
+
+.icon-male{
+  font-size: 8em;
+  padding:80px;
+  color: dodgerblue;
+}
+
+.icon-female{
+  font-size: 8em;
+  padding:80px;
+  color: hotpink;
+}
+
+.bestty-ex{
+  display: flex;
+  justify-content:center;
 }
 
 .image {display: flex;}
-img {
-  max-width: 100%;
-  
+
+.howto-content{
+  padding: 50px;
+  text-align: center;
 }
 
 .img-present3{
-  width :150px;
-  height:150px;
+  width :80px;
+  height:80px;
 }
 
+.howto-title{
+  color: rgb(78, 78, 78);
+}
+
+.bestty-content{
+  padding-top: 50px;
+}
 .bst-fix{
   
   margin-left: 350px;
 }
 
 .text-color-happy{
- color: darkkhaki;
+ color: rgb(236, 209, 51);
 }
 
 .text-color-best{
-  color: indianred;
+  color: rgb(255, 104, 49);
 
 }
 
-.text-size-best-happy{
- font-size:100px;
+.text-best{
+  font-size:50px;
+  padding-right: 30px;
+  padding-left: 50px;
 }
 
+.text-happy{
+  font-size:50px;
+  padding-left: 30px;
+}
+
+.text-x{
+  font-size:50px;
+  /* padding-right:30px; */
+}
