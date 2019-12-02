@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/bestty/top','BesttyController@index')->name('bestty.index');
 
-    return view('howto');
-});
+Route::get('/bestty/question','BesttyController@question')->name('bestty.qustion');
 
