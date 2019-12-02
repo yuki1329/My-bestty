@@ -34,8 +34,9 @@
 <!-- 内容 -->
 
 <diV class="">
-
-<img src="{{ asset('img/present.png') }}" alt="a image of present" class="d-block mx-auto present-img">
+<div class="top-img-present">
+<img src="{{ asset('img/present.png') }}" alt="a image of present" class="present-img">
+</div>
     <div class="bestty-title">
       <h4 class="bestty-b">B</h4>
       <h4 class="bestty-e">E</h4>
@@ -51,21 +52,38 @@
     <p class="text-center">BESTTY</p>
     <p class="text-center">プレゼントを贈る相手を男性・女性で決めよう！</p>
 
-    <div class="img text-center">
+    <div class="text-center gender-chose">
       
-    <img src="{{ asset('img/13791.jpg') }}" alt="a image of mens" class="img-present2">
-    <img src="{{ asset('img/13790.jpg') }}" alt="a image of womens" class="img-present2">
+    {{-- <img src="{{ asset('img/13791.jpg') }}" alt="a image of mens" class="img-present2"> --}}
+    <i class="fas fa-male icon-male" action="{{ route('bestty.ma_question') }}" method="GET"></i>
+    {{-- <img src="{{ asset('img/13790.jpg') }}" alt="a image of womens" class="img-present2"> --}}
+    <i class="fas fa-female icon-female"></i>
       
     </div>
 
-    <div>
-    <img src="{{ asset('img/denkyu.png') }}" alt="a image of mens" class="d-block mx-auto img-present3">
-    <p class="my-4 text-center">HOW TO</p>
+    <div class="howto-content">
+    <img src="{{ asset('img/denkyu.png') }}" alt="a image of mens" class="img-present3">
+    <div class="howto-title">
+      <h3>How to</h3>
+    </div>
     </div>
 
     <div class="text-center">
-    <p>BESTTY</p>
-     <div class="container-fluid"> <div class="row"><div class="col-md text-color-best text-size-best-happy">BEST</div><div class="col-md text-size-best-happy">x</div><div class="col-md text-color-happy text-size-best-happy">HAPPY</div></div> </div>
+      <h4 class="bestty-content">BESTTY</h4>
+     <div class="container-fluid"> 
+       <div class="row bestty-ex">
+         <div class="text-color-best text-best">
+           BEST
+         </div>
+         <div class="text-x">
+           x
+         </div>
+         <div class="text-color-happy text-happy">
+           HAPPY
+         </div>
+       </div>
+     </div>
+
     <p class="text-color-best">BEST</p>
     <p>なプレゼントをして、お互いに</p>
     <p class="text-color-happy">HAPPY</p>
