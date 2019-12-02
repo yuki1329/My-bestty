@@ -13,20 +13,20 @@
 </head>
 <body>
 <!-- ヘッダー -->
-    <header class="site-header">
-      <h2 class="header-character"> BESTTY</h2>
-    </header><br><br>
-    <div class="menu2">
-        <div class="menuWrapper">
-          <span class="menuBtn">
-          </span>
-        </div>
-        <ul id="menu">
-          <li><a href="#">診断をやめる</a></li>
-          <li><a href="#">使い方</a></li>
-          <li><a href="#">ちんちん</a></li>
-        </ul>
-      </div>
+<header class="site-header">
+  <h2 class="header-character"> BESTTY</h2>
+</header>
+<div class="menu2">
+    <div class="menuWrapper">
+      <span class="menuBtn">
+      </span>
+    </div>
+    <ul id="menu">
+      <li><a href="{{ route('bestty.index') }}" method="GET">ホーム</a></li>
+      <li><a href="{{ route('bestty.howto') }}" method="GET">？？？？</a></li>
+      <li><a href="#">ちんちん</a></li>
+    </ul>
+  </div><br><br>
 <!-- 内容 -->
 <div class="howto-all">
     <img src="{{ asset('img/denkyu.png') }}" alt="a image of denkyu" class="img-denkyu">
@@ -56,7 +56,7 @@
   </div>
 </div>
 <div class="btn-return">
-<button class="return-home btn btn-info">Let's check!</button>
+<a href="{{ route('bestty.index') }}"><button class="return-home btn btn-info">Let's check!</button></a>
 </div>
 <footer class="footer">
   <nav>

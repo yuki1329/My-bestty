@@ -10,9 +10,15 @@ class BesttyController extends Controller
         return view('bestty.home');
     }
     public function ma_question(){
-        return view('bestty.ma_question');
+        return view('bestty.question');
     }
     public function fe_question(){
-        return view('bestty.fe_question');
+        return view('bestty.fe-question');
+    }
+    public function howto(){
+        return view('bestty.howto');
+    }
+    public function result(){
+        return view('bestty.result');
     }
 }
