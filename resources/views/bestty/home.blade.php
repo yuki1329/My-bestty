@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('css/home.css') }}">
     <title>HOME</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 <body>
@@ -51,23 +51,20 @@
 
 
     <p class="text-center">センスでプレゼントを決めるサイト</p>
-    <p class="text-center">BESTTY</p>
-    <p class="text-center">プレゼントを贈る相手を男性・女性で決めよう！</p>
+    <h3 class="text-center choose-ex">プレゼントを贈る相手の性別を選択しよう！</h3>
 
     <div class="text-center gender-chose">
-      
-    {{-- <img src="{{ asset('img/13791.jpg') }}" alt="a image of mens" class="img-present2"> --}}
-    <a  href="{{ route('bestty.ma_question') }}" method="GET"> <i class="fas fa-male icon-male"></i></a>
-    {{-- <img src="{{ asset('img/13790.jpg') }}" alt="a image of womens" class="img-present2"> --}}
+
+    <a  href="{{ route('bestty.ma_question') }}" method="GET"><i class="fas fa-male icon-male"></i></a>
     <a href="{{ route('bestty.fe_question') }}" method="GET"><i class="fas fa-female icon-female"></i></a>
-      
+
     </div>
 
     <div class="howto-content">
-    <a href="{{ route('bestty.howto') }}" method="GET"><img src="{{ asset('img/denkyu.png') }}" alt="a image of mens" class="img-present3"></a>
-    <div class="howto-title">
-      <h3>How to</h3>
-    </div>
+      <a href="{{ route('bestty.howto') }}" method="GET"><img src="{{ asset('img/denkyu.png') }}" alt="a image of mens" class="img-present3"></a>
+      <div class="howto-title">
+        <h3>How to</h3>
+      </div>
     </div>
 
     <div class="text-center">

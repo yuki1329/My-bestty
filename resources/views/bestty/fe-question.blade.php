@@ -28,7 +28,7 @@
 
 <!-- 内容 -->
 <div class="body-all">
-    <div>
+    <div class="q-1">
     <h2>1.流行りものや新商品より、長く使えるものを好む傾向がありそうだ。</h2>
     <fieldset>
       <div class="btn-wrapper" id="#1">

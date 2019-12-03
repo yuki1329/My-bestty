@@ -173,7 +173,7 @@
       border-right:8px solid #000000;
       border-left:8px solid #000000;
       border-bottom:8px solid #000000;
-
+      font-family: 'Noto Sans JP', sans-serif;
   
  /* ヘッダーのデザイン */
   }
@@ -211,6 +211,14 @@
       width: 500px;
       padding: 20px;
     }
+
+  .q-1{
+    padding-top: 50px;
+  }
+
+
+
+
   /* アイテムのジャンル名 */
     .result-flex-item-name{
       list-style: none;

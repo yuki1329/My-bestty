@@ -36,7 +36,7 @@
 
 <!-- 内容 -->
 <div class="body-all">
-    <div>
+    <div class="q-1">
     <h2>1.ものを選ぶ基準はデザインより機能性だ</h2>
     <fieldset>
       <div class="btn-wrapper" id="#1">
