@@ -11,8 +11,23 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('howto', function () {
 
     return view('howto');
+});
+
+Route::get('/', function () {
+
+    return view('home');
+});
+
+Route::get('result', function () {
+
+    return view('result');
+});
+
+Route::get('question', function () {
+
+    return view('question');
 });
 

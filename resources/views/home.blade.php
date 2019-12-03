@@ -89,8 +89,14 @@
   <nav>
     <div class="sns-icon">
         <i class="fab fa-instagram fa-2x"></i>
-        <i class="fab fa-twitter fa-2x"></i>
+        
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://qiita.com/katsuma">
         <i class="fab fa-facebook-f fa-2x"></i>
+      </a>
+       
+        
     </div>
     <img src="{{ asset('img/present.png') }}" alt="a image of present" class="img-present">
     <div class="bestty-title">
@@ -132,5 +138,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 </script>
 <script src="{{ asset('js/appjs.js') }}"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0"></script>
 </body>
 </html>
