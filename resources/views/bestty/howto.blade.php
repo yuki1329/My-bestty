@@ -61,7 +61,7 @@
 <footer class="footer">
   <nav>
     <div class="sns-icon">
-        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fab fa-line fa-2x"></i>
         <i class="fab fa-twitter fa-2x"></i>
         <i class="fab fa-facebook-f fa-2x"></i>
     </div>
