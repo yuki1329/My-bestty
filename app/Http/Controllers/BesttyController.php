@@ -18,7 +18,9 @@ class BesttyController extends Controller
     public function howto(){
         return view('bestty.howto');
     }
-    public function result(){
+    public function result(Request $request){
+
+        dd($request);
         return view('bestty.result');
     }
 }

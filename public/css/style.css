@@ -239,7 +239,7 @@
     text-align: center;
   }
 
-  .radio-inline__input {
+  /* .radio-inline__input {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
 }
@@ -498,5 +498,5 @@ fieldset {
   outline-offset: -2px;
   outline-style: auto;
   outline-width: 5px;
-}
+} */
 
