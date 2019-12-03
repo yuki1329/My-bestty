@@ -1,11 +1,5 @@
 
 
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -22,18 +16,20 @@
 <body>
 <!-- ヘッダー -->
 
+    <!-- ヘッダー -->
+
     <header class="site-header">
       <h2 class="header-character"> BESTTY</h2>
-    </header><br><br>
+    </header>
     <div class="menu2">
         <div class="menuWrapper">
           <span class="menuBtn">
           </span>
         </div>
         <ul id="menu">
-          <li><a href="#">風俗を探す</a></li>
-          <li><a href="#">デリヘルを探す</a></li>
-          <li><a href="#">ちんちんを探す</a></li>
+          <li><a href="{{ route('bestty.index') }}" method="GET">ホーム</a></li>
+          <li><a href="{{ route('bestty.howto') }}" method="GET">使い方</a></li>
+          <li><a href="#">ちんちん</a></li>
         </ul>
       </div>
       
@@ -61,14 +57,14 @@
     <div class="text-center gender-chose">
       
     {{-- <img src="{{ asset('img/13791.jpg') }}" alt="a image of mens" class="img-present2"> --}}
-    <i class="fas fa-male icon-male"></i>
+    <a  href="{{ route('bestty.ma_question') }}" method="GET"> <i class="fas fa-male icon-male"></i></a>
     {{-- <img src="{{ asset('img/13790.jpg') }}" alt="a image of womens" class="img-present2"> --}}
-    <i class="fas fa-female icon-female"></i>
+    <a href="{{ route('bestty.fe_question') }}" method="GET"><i class="fas fa-female icon-female"></i></a>
       
     </div>
 
     <div class="howto-content">
-    <img src="{{ asset('img/denkyu.png') }}" alt="a image of mens" class="img-present3">
+    <a href="{{ route('bestty.howto') }}" method="GET"><img src="{{ asset('img/denkyu.png') }}" alt="a image of mens" class="img-present3"></a>
     <div class="howto-title">
       <h3>How to</h3>
     </div>

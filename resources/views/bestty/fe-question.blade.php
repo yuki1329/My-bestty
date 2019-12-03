@@ -20,8 +20,8 @@
           </span>
         </div>
         <ul id="menu">
-          <li><a href="#">診断をやめる</a></li>
-          <li><a href="#">使い方</a></li>
+          <li><a href="{{ route('bestty.index') }}" method="GET">診断をやめる</a></li>
+          <li><a href="{{ route('bestty.howto') }}" method="GET">使い方</a></li>
           <li><a href="#">ちんちん</a></li>
         </ul>
       </div>
@@ -167,7 +167,7 @@
 
     {{-- 結果ボタン --}}
     <div class="text-center question-result-btn">
-    <input type="button" value="結果" href="">
+    <a href="{{ route('bestty.result') }}" method="GET"><input type="button" value="結果"></a>
     
 </div>
 </fieldset>
