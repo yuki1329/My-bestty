@@ -23,18 +23,5 @@ Route::get('/bestty/how_to','BesttyController@howto')->name('bestty.howto');
 
 Route::get('/bestty/result','BesttyController@result')->name('bestty.result');
 
-Route::get('/', function () {
 
-    return view('home');
-});
-
-Route::get('result', function () {
-
-    return view('result');
-});
-
-Route::get('question', function () {
-
-    return view('question');
-});
 
