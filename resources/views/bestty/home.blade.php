@@ -12,6 +12,21 @@
     <title>HOME</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- ※基本共通設定 -->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<title>ページのタイトル</title>
+<meta property="og:title" content="BESTTY" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://127.0.0.1:8000/#" />
+<meta property="og:image" content="{{ asset('img/present.png') }}" />
+<meta property="og:description" content="最高のプレゼントを最高の相手に" />
+
+<!-- Facebook用設定 -->
+<meta property="fb:app_id" content="2627128337362838" />
+
+
+<!-- ※Twitter共通設定 -->
+<meta name="twitter:card" content="summary_large_image" />
 </head>
 <body>
 <!-- ヘッダー -->
@@ -32,7 +47,7 @@
           <li><a href="#">ちんちん</a></li>
         </ul>
       </div>
-      
+
 <!-- 内容 -->
 
 <diV class="">
@@ -99,9 +114,17 @@
     <footer class="footer">
   <nav>
     <div class="sns-icon">
-        <i class="fab fa-line fa-2x"></i>
-        <i class="fab fa-twitter fa-2x"></i>
+<<<<<<< HEAD:resources/views/home.blade.php
+    <a class="line btn" href="http://line.me/R/msg/text/?best gift for best friend,http://127.0.0.1:8000">LINE</a>
+        
+        <a href="http://twitter.com/share?url=http://127.0.0.1:8000&text=gift for best friend" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://qiita.com/katsuma">
+
         <i class="fab fa-facebook-f fa-2x"></i>
+      </a>
+       
+        
     </div>
     <img src="{{ asset('img/present.png') }}" alt="a image of present" class="img-present">
     <div class="bestty-title">
@@ -143,5 +166,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 </script>
 <script src="{{ asset('js/appjs.js') }}"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v5.0"></script>
 </body>
 </html>
