@@ -173,7 +173,7 @@
       border-right:8px solid #000000;
       border-left:8px solid #000000;
       border-bottom:8px solid #000000;
-
+      font-family: 'Noto Sans JP', sans-serif;
   
  /* ヘッダーのデザイン */
   }
@@ -211,6 +211,14 @@
       width: 500px;
       padding: 20px;
     }
+
+  .q-1{
+    padding-top: 50px;
+  }
+
+
+
+
   /* アイテムのジャンル名 */
     .result-flex-item-name{
       list-style: none;
@@ -500,3 +508,62 @@ fieldset {
   outline-width: 5px;
 }
 
+/* footerの編集 */
+.footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color:rgb(48, 48, 48);
+  font-size: 12px;
+  padding: 10px 0;
+}
+/* besttyタイトルの編集 */
+.bestty-title{
+  display: flex;
+  justify-content: center;
+}
+.bestty-b{
+  color: red;
+}
+.bestty-e{
+  color: coral;
+}
+.bestty-s{
+  color: gold;
+}
+.bestty-t{
+  color: rgb(106, 255, 106);
+}
+.bestty-t2{
+  color: aqua;
+}
+.bestty-y{
+  color: rgb(0, 110, 255);
+}
+/* besttyタイトル終了 */
+.copyright{
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.a-footer{
+  color: #333;
+}
+.img-present{
+  height: 100px;
+  margin-bottom: 10px;
+}
+.fab{
+  margin: 25px;
+}
+.fa-line{
+  color: limegreen;
+}
+.fa-twitter{
+  color: deepskyblue;
+}
+.fa-facebook-f{
+  color: dodgerblue;
+}
