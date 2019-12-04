@@ -51,7 +51,7 @@
           <li><a href="#">ちんちんを探す</a></li>
         </ul>
       </div>
-      
+
 <!-- 内容 -->
 
 <diV class="">
@@ -103,9 +103,9 @@
     <footer class="footer">
   <nav>
     <div class="sns-icon">
-    <a class="line btn" href="http://line.me/R/msg/text/?[任意のテキスト][共有したいURL]">LINE</a>
+    <a class="line btn" href="http://line.me/R/msg/text/?best gift for best friend,http://127.0.0.1:8000">LINE</a>
         
-        <a href="http://twitter.com/share?url=[共有したいURL]&text=[任意のテキスト]&via=[ツイート内に含まれるユーザー名]&related=[関連アカウント]" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="http://twitter.com/share?url=http://127.0.0.1:8000&text=gift for best friend" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         <a href="https://www.facebook.com/sharer/sharer.php?u=http://qiita.com/katsuma">
         <i class="fab fa-facebook-f fa-2x"></i>
