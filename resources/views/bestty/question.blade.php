@@ -36,16 +36,17 @@
 
 <!-- 内容 -->
 <div class="body-all">
+    <form action="{{ route('bestty.result') }}" method="POST">
+    @csrf
     <div>
     <h2>1.ものを選ぶ基準はデザインより機能性だ</h2>
-    <form action="{{ route('bestty.result') }}">
     <fieldset>
       <div class="btn-wrapper" id="#1">
-          <input type="radio" name="question1-yes" value="yes-1"/>
+          <input type="radio" name="1" value="yes"/>
           <label for="yes-1">
               YES
           </label>
-          <input type="radio" name="question1-no" value="no-1"/>
+          <input type="radio" name="1" value="no"/>
           <label for="no-1">
               NO
           </label>
@@ -131,11 +132,11 @@
     <div>
     <h2>7.結構、実際の出来事より控えめだったり、多くを語らないイメージがある</h2>
     <div class="btn-wrapper">
-      <input type="radio" name="question7-yes" value="yes-7">
+      <input type="radio" name="question7" value="{{select  from questions where id = 7}}">
       <label for="yes-7">
           YES
       </label>
-      <input type="radio" name="question7-no" value="no-7"/>
+      <input type="radio" name="question7" value="no-7"/>
       <label for="no-7">
           NO
       </label>
@@ -159,7 +160,7 @@
   </div><br><br>
 
       <div>
-        <h2>9.あなたが思う相手の良い点は、落ち着いていて知的なところである</h2>
+        <h2>9.何事にもひとつひとつ丁寧に行う</h2>
           <div class="btn-wrapper">
               <input type="radio" name="question9-yes" value="yes-9"/>
               <label for="yes-9">

@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class bestty extends Model
+class Bestty extends Model
 {
     //
 }

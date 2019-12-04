@@ -19,5 +19,5 @@ Route::get('/bestty/fe_question','BesttyController@fe_question')->name('bestty.f
 
 Route::get('/bestty/how_to','BesttyController@howto')->name('bestty.howto');
 
-Route::get('/bestty/result','BesttyController@result')->name('bestty.result');
+Route::post('/bestty/result','BesttyController@result')->name('bestty.result');
 
