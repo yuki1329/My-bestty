@@ -18,6 +18,21 @@
     <title>HOME</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- ※基本共通設定 -->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<title>ページのタイトル</title>
+<meta property="og:title" content="BESTTY" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://127.0.0.1:8000/#" />
+<meta property="og:image" content="{{ asset('img/present.png') }}" />
+<meta property="og:description" content="最高のプレゼントを最高の相手に" />
+
+<!-- Facebook用設定 -->
+<meta property="fb:app_id" content="2627128337362838" />
+
+
+<!-- ※Twitter共通設定 -->
+<meta name="twitter:card" content="summary_large_image" />
 </head>
 <body>
 <!-- ヘッダー -->
@@ -88,9 +103,9 @@
     <footer class="footer">
   <nav>
     <div class="sns-icon">
-        <i class="fab fa-instagram fa-2x"></i>
+    <a class="line btn" href="http://line.me/R/msg/text/?[任意のテキスト][共有したいURL]">LINE</a>
         
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="http://twitter.com/share?url=[共有したいURL]&text=[任意のテキスト]&via=[ツイート内に含まれるユーザー名]&related=[関連アカウント]" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         <a href="https://www.facebook.com/sharer/sharer.php?u=http://qiita.com/katsuma">
         <i class="fab fa-facebook-f fa-2x"></i>
