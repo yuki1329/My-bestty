@@ -15,7 +15,7 @@ Route::get('/bestty/top','BesttyController@index')->name('bestty.index');
 
 Route::get('/bestty/ma_question','BesttyController@ma_question')->name('bestty.ma_question');
 
-Route::get('/bestty/fe_question','BesttyController@fe_question')->name('bestty.fe_question');
+Route::get('/bestty/fe_question','FemaleBesttyController@fe_question')->name('bestty.fe_question');
 
 Route::get('/bestty/how_to','BesttyController@howto')->name('bestty.howto');
 

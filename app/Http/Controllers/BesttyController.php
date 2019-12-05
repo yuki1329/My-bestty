@@ -11,11 +11,7 @@ class BesttyController extends Controller
     }
     public function ma_question(){
         
-        
         return view('bestty.question');
-    }
-    public function fe_question(){
-        return view('bestty.fe-question');
     }
     public function howto(){
         return view('bestty.howto');
@@ -27,13 +23,6 @@ class BesttyController extends Controller
 
         dd($request->question7);
 
-        $question = \App\Bestty::where(
-            [
-                ['id',1],['Ya','Yb','Yc']
-            ]
-        )->get();
-    
-        dd($question);
-        return view('bestty.result');
+        // return view('bestty.result');
     }
 }

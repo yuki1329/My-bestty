@@ -28,10 +28,29 @@
 
 <!-- 内容 -->
 <div class="body-all">
-    <div>
-    <h2>1.流行りものや新商品より、長く使えるものを好む傾向がありそうだ。</h2>
-    <fieldset>
-      <div class="btn-wrapper" id="#1">
+            @foreach ($female_questions as $female_question)
+            <fieldset>
+            <div class="m-4 p-4 border border-primary">
+              <p>{{$female_question->body}}</p>
+              <div class="btn-wrapper">
+                    <input type="radio" name="question9" value="yes"/>
+                    <label for="yes-9">
+                        YES
+                    </label>
+                    <input type="radio" name="question9" value="no"/>
+                    <label for="no-9">
+                        NO
+                    </label>
+             </div>
+            </fieldset>
+            @endforeach
+
+
+
+{{-- 
+
+
+
           <input id="item-1" class="radio-inline__input" type="radio" name="accessible-radio" value="item-1" checked="checked"/>
           <label class="radio-inline__label" for="item-1">
               YES
@@ -166,10 +185,10 @@
   
 
     {{-- 結果ボタン --}}
-    <div class="text-center question-result-btn">
+    {{-- <div class="text-center question-result-btn">
     <a href="{{ route('bestty.result') }}" method="GET"><input type="button" value="結果"></a>
     
-</div>
+</div> --}}
 </fieldset>
 </div>
 
