@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <title>RESULT</title>
 </head>
 <body>
@@ -29,48 +30,61 @@
 
 {{-- 内容 --}}
 <div class="result-all">
-  <div id="result-img">
+  <div id="result-top">
   <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
-      <img src="{{ asset('img/logo.jpg') }}" alt="結果画面の画像" >
-      <h1>野球好き系女子</h1>
+      <img src="{{ asset('img/kirakiragirl.jpeg') }}" class="result-img" alt="結果画面の画像" >
+      <h1 class="result-text">インドア派男子</h1>
   </div>
-      <div>
-        <ul>
-          <li class="result-flex-item-name">コスメ</li>
-          <li class="result-flex-item-name">アクセサリー</li>
-          <li class="result-flex-item-name">洋服</li>
-        </ul>
-      </div>
-      <div>
-        <ul class="">
-          <li class="result-flex-img"><img src="{{ asset('img/youhuku.jpeg') }}" alt="コスメ"></li>
-          <li class="result-flex-img"><img src="{{ asset('img/youhuku.jpeg') }}" alt="アクセサリー"></li>
-          <li class="result-flex-img"><img src="{{ asset('img/youhuku.jpeg') }}" alt="洋服"></li>
-        </ul>
-      </div>
+  <div class="result-ex">
+    <h4>キラキラ系女子はパーティーやイベントが大好き！<br>流行や人気なものに敏感な彼女たちにはこんなものがオススメ！</h4>
+  </div>
+        <!-- container -->
+        <div class="container mt-1">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="{{ asset('img/presents.jpg') }}" alt="ac" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">Present1
+                  </h5>
+                  <p class="card-text">mosugu chiristmas dayo</p>
+                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                </div>
+              </div>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">Present2</h5>
+                  <p class="card-text">kuribocchi wa kanashiine</p>
+                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                </div>
+              </div>
+            </div>
 
-      <div class="row p-3 justify-content-around">
-        <ul class="col-3 border border-success">
-          <li>コスメ</li>
-          <li>アクセサリー</li>
-          <li>洋服</li>
-        </ul>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">Present3</h5>
+                  <p class="card-text">Yuki Ueno wa kuribocchi
+                  </p>
+                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                </div>
+              </div>
+            </div>
+            <!-- /.col-md-4 -->
+        ​
+          </div>
+        </div>
 
-        <ul class="col-3 border border-success">
-          <li>コスメ</li>
-          <li>アクセサリー</li>
-          <li>洋服</li>
-          <li>ああああ</li>
-        </ul>
-
-        <ul class="col-3 border border-success">
-          <li>コスメ</li>
-          <li>アクセサリー</li>
-          <li>洋服</li>
-        </ul>
-      </div>
       <div class="top-btn">
-      <a href="{{ route('bestty.index') }}" method="GET"><button>トップに戻る</button></a>
+      <a href="{{ route('bestty.index') }}" class="btn-flat-simple">
+        <i class="fa fa-caret-right"></i> トップに戻る
+      </a>
       </div>
 </div>
 <footer class="footer">

@@ -230,284 +230,50 @@
     .result-flex-img{
       list-style: none;
       display: inline;
-      margin: 0px 110px;
+      margin: 0px 50px;
     }
   /* タイプのイメージ画像 */
-    #result-img{
+    #result-top{
       text-align: center;
-      padding: 30px;
+      padding-top: 120px;
     }
     .result-item-brand{
       display: inline;
     }
-  ul{
-    list-style: none;
-  }
+
+    .result-img{
+      max-width: 100%;
+      height: auto; 
+    }
+    .result-text{
+      padding-top: 30px;
+    }
+
+    .result-ex{
+      text-align: center;
+      padding-bottom: 50px;
+    }
   .top-btn{
     text-align: center;
+    padding-top: 70px;
   }
 
-  .radio-inline__input {
-    clip: rect(1px, 1px, 1px, 1px);
-    position: absolute !important;
-}
-
-.radio-inline__label {
+  .btn-flat-simple {
+    position: relative;
     display: inline-block;
-    padding: 0.5rem 1rem;
-    margin-right: 18px;
-    border-radius: 3px;
-    transition: all .2s;
-    font-size: 28px;
-}
-
-.radio-inline__input:checked + .radio-inline__label {
-    background: #B54A4A;
-    color: #fff;
-    text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input:focus + .radio-inline__label {
-    outline-color: #4D90FE;
-    outline-offset: -2px;
-    outline-style: auto;
-    outline-width: 5px;
-}
-
-fieldset {
-  border: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-
-
-.radio-inline__input2 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
-.radio-inline__label2 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
-}
-
-.radio-inline__input2:checked + .radio-inline__label2 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input2:focus + .radio-inline__label2 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-
-.radio-inline__input3 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
-.radio-inline__label3 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
-}
-
-.radio-inline__input3:checked + .radio-inline__label3 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input3:focus + .radio-inline__label3 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-.radio-inline__input4 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
-.radio-inline__label4 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
-}
-
-.radio-inline__input4:checked + .radio-inline__label4 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input4:focus + .radio-inline__label4 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-
-.radio-inline__input5 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
-.radio-inline__label5 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
-}
-
-.radio-inline__input5:checked + .radio-inline__label5 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input5:focus + .radio-inline__label5 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-
-.radio-inline__input6 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
-.radio-inline__label6 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
-}
-
-.radio-inline__input6:checked + .radio-inline__label6 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input6:focus + .radio-inline__label6 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-
-
-.radio-inline__input7 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
-.radio-inline__label7 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
-}
-
-.radio-inline__input7:checked + .radio-inline__label7 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input7:focus + .radio-inline__label7 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-
-
-.radio-inline__input8 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
-.radio-inline__label8 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
-}
-
-.radio-inline__input8:checked + .radio-inline__label8 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input8:focus + .radio-inline__label8 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-
-
-.radio-inline__input9 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
-.radio-inline__label9 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
-}
-
-.radio-inline__input9:checked + .radio-inline__label9 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input9:focus + .radio-inline__label9 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00bcd4;
+    background: rgb(228, 227, 227);
+    transition: .4s;
+  }
+  
+  .btn-flat-simple:hover {
+    background: #00bcd4;
+    color: white;
+  }
+  
 /* footerの編集 */
 .footer {
   margin-top: 50px;
