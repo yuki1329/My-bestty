@@ -22,7 +22,8 @@ class CreateBesttyTable extends Migration
             $table->integer('Na');
             $table->integer('Nb');
             $table->integer('Nc');
-            $table->integer('Y0orN1');
+
+
             $table->timestamps();
         });
     }

@@ -116,6 +116,7 @@
     <div class="sns-icon">
 <<<<<<< HEAD:resources/views/home.blade.php
     <a class="line btn" href="http://line.me/R/msg/text/?best gift for best friend,http://127.0.0.1:8000">LINE</a>
+    
         
         <a href="http://twitter.com/share?url=http://127.0.0.1:8000&text=gift for best friend" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
