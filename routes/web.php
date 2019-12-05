@@ -21,3 +21,4 @@ Route::get('/bestty/how_to','BesttyController@howto')->name('bestty.howto');
 
 Route::post('/bestty/result','BesttyController@result')->name('bestty.result');
 
+

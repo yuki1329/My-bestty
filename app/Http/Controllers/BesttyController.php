@@ -17,12 +17,11 @@ class BesttyController extends Controller
         return view('bestty.howto');
     }
 
-    public function result(Request $request){
+    public function result(){
 
         // $questions = Bestty::all();
 
-        dd($request->question7);
 
-        // return view('bestty.result');
+        return view('bestty.result');
     }
 }
