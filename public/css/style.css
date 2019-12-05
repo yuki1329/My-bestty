@@ -258,8 +258,17 @@
     padding-top: 70px;
   }
 
+<<<<<<< HEAD
+  /* .radio-inline__input {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+
+.radio-inline__label {
+=======
   .btn-flat-simple {
     position: relative;
+>>>>>>> develop
     display: inline-block;
     font-weight: bold;
     padding: 0.25em 0.5em;
@@ -333,3 +342,101 @@
 .fa-facebook-f{
   color: dodgerblue;
 }
+<<<<<<< HEAD
+
+.radio-inline__input6:focus + .radio-inline__label6 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+
+.radio-inline__input7 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label7 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input7:checked + .radio-inline__label7 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input7:focus + .radio-inline__label7 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+
+.radio-inline__input8 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label8 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input8:checked + .radio-inline__label8 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input8:focus + .radio-inline__label8 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+
+.radio-inline__input9 {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+.radio-inline__label9 {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all .2s;
+  font-size: 28px;
+}
+
+.radio-inline__input9:checked + .radio-inline__label9 {
+  background: #B54A4A;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0,0,0,.7);
+}
+
+.radio-inline__input9:focus + .radio-inline__label9 {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+} */
+
+=======
+>>>>>>> develop

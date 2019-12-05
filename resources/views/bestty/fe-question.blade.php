@@ -28,6 +28,29 @@
 
 <!-- 内容 -->
 <div class="body-all">
+<<<<<<< HEAD
+    <form action="{{ route('bestty.result') }}" method="POST">
+        @csrf
+            @foreach ($female_questions as $female_question)
+            <fieldset>
+            <div class="m-4 p-4 border border-primary">
+              <p>{{$female_question->body}}</p>
+              <div class="btn-wrapper">
+                    <input type="radio" name="question-{{$female_question->id}}" value="yes"/>
+                    <label for="yes">
+                        YES
+                    </label>
+                    <input type="radio" name="question-{{$female_question->id}}" value="no"/>
+                    <label for="no">
+                        NO
+                    </label>
+             </div>
+            </div>
+            </fieldset>
+            @endforeach
+            <div class="text-center question-result-btn">
+                <input type="button" value="結果">
+=======
     <div class="q-1">
     <h2>1.流行りものや新商品より、長く使えるものを好む傾向がありそうだ。</h2>
     <fieldset>
@@ -169,10 +192,11 @@
     <div class="text-center question-result-btn">
     <a href="{{ route('bestty.result') }}" method="GET"><input type="button" value="結果"></a>
     
+>>>>>>> develop
 </div>
 </fieldset>
 </div>
-
+</form>
 
 
 
