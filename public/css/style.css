@@ -173,7 +173,7 @@
       border-right:8px solid #000000;
       border-left:8px solid #000000;
       border-bottom:8px solid #000000;
-
+      font-family: 'Noto Sans JP', sans-serif;
   
  /* ヘッダーのデザイン */
   }
@@ -211,6 +211,14 @@
       width: 500px;
       padding: 20px;
     }
+
+  .q-1{
+    padding-top: 50px;
+  }
+
+
+
+
   /* アイテムのジャンル名 */
     .result-flex-item-name{
       list-style: none;
@@ -222,189 +230,119 @@
     .result-flex-img{
       list-style: none;
       display: inline;
-      margin: 0px 110px;
+      margin: 0px 50px;
     }
   /* タイプのイメージ画像 */
-    #result-img{
+    #result-top{
       text-align: center;
-      padding: 30px;
+      padding-top: 120px;
     }
     .result-item-brand{
       display: inline;
     }
-  ul{
-    list-style: none;
-  }
+
+    .result-img{
+      max-width: 100%;
+      height: auto; 
+    }
+    .result-text{
+      padding-top: 30px;
+    }
+
+    .result-ex{
+      text-align: center;
+      padding-bottom: 50px;
+    }
   .top-btn{
     text-align: center;
+    padding-top: 70px;
   }
 
+<<<<<<< HEAD
   /* .radio-inline__input {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
 }
 
 .radio-inline__label {
+=======
+  .btn-flat-simple {
+    position: relative;
+>>>>>>> develop
     display: inline-block;
-    padding: 0.5rem 1rem;
-    margin-right: 18px;
-    border-radius: 3px;
-    transition: all .2s;
-    font-size: 28px;
-}
-
-.radio-inline__input:checked + .radio-inline__label {
-    background: #B54A4A;
-    color: #fff;
-    text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input:focus + .radio-inline__label {
-    outline-color: #4D90FE;
-    outline-offset: -2px;
-    outline-style: auto;
-    outline-width: 5px;
-}
-
-fieldset {
-  border: none;
-  padding: 0;
-  margin: 0;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00bcd4;
+    background: rgb(228, 227, 227);
+    transition: .4s;
+  }
+  
+  .btn-flat-simple:hover {
+    background: #00bcd4;
+    color: white;
+  }
+  
+/* footerの編集 */
+.footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  color:rgb(48, 48, 48);
+  font-size: 12px;
+  padding: 10px 0;
 }
-
-
-
-.radio-inline__input2 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
+/* besttyタイトルの編集 */
+.bestty-title{
+  display: flex;
+  justify-content: center;
 }
-
-.radio-inline__label2 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
+.bestty-b{
+  color: red;
 }
-
-.radio-inline__input2:checked + .radio-inline__label2 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
+.bestty-e{
+  color: coral;
 }
-
-.radio-inline__input2:focus + .radio-inline__label2 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
+.bestty-s{
+  color: gold;
 }
-
-
-.radio-inline__input3 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
+.bestty-t{
+  color: rgb(106, 255, 106);
 }
-
-.radio-inline__label3 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
+.bestty-t2{
+  color: aqua;
 }
-
-.radio-inline__input3:checked + .radio-inline__label3 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
+.bestty-y{
+  color: rgb(0, 110, 255);
 }
-
-.radio-inline__input3:focus + .radio-inline__label3 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
+/* besttyタイトル終了 */
+.copyright{
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
-
-.radio-inline__input4 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
+.a-footer{
+  color: #333;
 }
-
-.radio-inline__label4 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
+.img-present{
+  height: 100px;
+  margin-bottom: 10px;
 }
-
-.radio-inline__input4:checked + .radio-inline__label4 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
+.fab{
+  margin: 25px;
 }
-
-.radio-inline__input4:focus + .radio-inline__label4 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
+.fa-line{
+  color: limegreen;
 }
-
-
-.radio-inline__input5 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
+.fa-twitter{
+  color: deepskyblue;
 }
-
-.radio-inline__label5 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
+.fa-facebook-f{
+  color: dodgerblue;
 }
-
-.radio-inline__input5:checked + .radio-inline__label5 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
-
-.radio-inline__input5:focus + .radio-inline__label5 {
-  outline-color: #4D90FE;
-  outline-offset: -2px;
-  outline-style: auto;
-  outline-width: 5px;
-}
-
-
-.radio-inline__input6 {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-}
-
-.radio-inline__label6 {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 18px;
-  border-radius: 3px;
-  transition: all .2s;
-  font-size: 28px;
-}
-
-.radio-inline__input6:checked + .radio-inline__label6 {
-  background: #B54A4A;
-  color: #fff;
-  text-shadow: 0 0 1px rgba(0,0,0,.7);
-}
+<<<<<<< HEAD
 
 .radio-inline__input6:focus + .radio-inline__label6 {
   outline-color: #4D90FE;
@@ -500,3 +438,5 @@ fieldset {
   outline-width: 5px;
 } */
 
+=======
+>>>>>>> develop

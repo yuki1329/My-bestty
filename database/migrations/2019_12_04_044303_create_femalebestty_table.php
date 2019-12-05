@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBesttyTable extends Migration
+class CreateFemalebesttyTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateBesttyTable extends Migration
      */
     public function up()
     {
-        Schema::create('questions', function (Blueprint $table) {
+        Schema::create('questions2', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('body');
             $table->integer('Ya');
@@ -33,6 +33,6 @@ class CreateBesttyTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('questions');
+        Schema::dropIfExists('femalebestty');
     }
 }
