@@ -94,7 +94,7 @@
 .text-best{
   font-size:50px;
   padding-right: 30px;
-  padding-left: 50px;
+  padding-left: 35px;
 }
 
 .text-happy{
@@ -104,6 +104,7 @@
 
 .text-x{
   font-size:50px;
+  text-align: center;
   /* padding-right:30px; */
 }
 

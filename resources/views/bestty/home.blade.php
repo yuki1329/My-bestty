@@ -83,7 +83,7 @@
     </div>
 
     <div class="text-center">
-      <h4 class="bestty-content">BESTTY</h4>
+      <h4 class="bestty-content">BESTTYとは</h4>
      <div class="container-fluid"> 
        <div class="row bestty-ex">
          <div class="text-color-best text-best">
