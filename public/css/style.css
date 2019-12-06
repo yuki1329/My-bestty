@@ -329,10 +329,6 @@
   color: dodgerblue;
 }
 
-<<<<<<< HEAD
-.tt{
-  font-size: 20px;
-=======
 .button {
   display       : inline-block;
   border-radius : 5%;          /* 角丸       */
@@ -349,5 +345,4 @@
 .button:hover {
   color         : #bbbbbb;     /* 背景色     */
   background    : #ffffff;     /* 文字色     */
->>>>>>> develop
 }
