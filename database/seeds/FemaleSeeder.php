@@ -104,7 +104,7 @@ class FemaleSeeder extends Seeder
             ];
             foreach ($bestty2 as $best2) {
 
-                DB::table('questions2')->insert([
+                DB::table('female_questions')->insert([
                     'body'=>$best2['body'],
                     'Ya' => $best2['Ya'],
                     'Yb' => $best2['Yb'],

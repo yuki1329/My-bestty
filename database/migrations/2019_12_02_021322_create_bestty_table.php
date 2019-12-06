@@ -13,7 +13,7 @@ class CreateBesttyTable extends Migration
      */
     public function up()
     {
-        Schema::create('questions', function (Blueprint $table) {
+        Schema::create('male_questions', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('body');
             $table->integer('Ya');
@@ -33,6 +33,6 @@ class CreateBesttyTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('questions');
+        Schema::dropIfExists('male_questions');
     }
 }

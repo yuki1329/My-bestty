@@ -23,7 +23,7 @@ Route::get('/bestty/how_to','BesttyController@howto')->name('bestty.howto');
 
 Route::post('/bestty/result-ma1','BesttyController@result')->name('bestty.result-ma1');
 
-Route::post('/bestty/result-fe1','FemaleBesttyController@result')->name('bestty.result-fe1');
+Route::post('/bestty/result-fe1','FemaleBesttyController@result')->name('bestty.result');
 
 
 
