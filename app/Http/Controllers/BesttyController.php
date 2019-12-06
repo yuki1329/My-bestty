@@ -22,19 +22,54 @@ class BesttyController extends Controller
        
         
         $questions = Question::all();
-        $id = Question::select('id')->get();
-        $Y =  Question::select('Ya', 'Yb', 'Yc')->get();
-        $N =  Question::select('Na', 'Nb', 'Nc')->get();
+        // $id = Question::select('id')->get();
+        // $Y =  Question::select('Ya', 'Yb', 'Yc')->get();
+        // $N =  Question::select('Na', 'Nb', 'Nc')->get();
         
+        // $sum = array('A' => 0 , 'B' => 0, 'C' => 0);
+        // dd($request);
+    
+        $a = 0;
+        $b = 0;
+        $c = 0;
 
-        
-        foreach($id as $ids)
+        $results = $request->all();
+
+
+
+        foreach($questions as $question)
+
         {
- 
+            $key = 'q' . $question->id;
+            if ($results[$key] == 'yes') {
+                $a += $question->Ya;
+                $b += $question->Yb;
+                $c += $question->Yc;
+            } else {
+                $a += $question->Na;
+                $b += $question->Nb;
+                $c += $question->Nc;
+
             }
 
 
-    
+
+        }
+       
+        if( $a > $b && $a >$c ){
+            return view('bestty.howto');
+        }else if ( $c > $b && $c >$a){
+            return view('bestty.home');
+
+        }else if ($b > $a && $b > $c){
+            return view('bestty.question');
+        }
+        
+
+        
+
+
+        
         
 
         
@@ -42,7 +77,7 @@ class BesttyController extends Controller
     
 
         
-        // return view('bestty.result');
+
         
     }
 }

@@ -38,11 +38,11 @@
     <h2>1.ものを選ぶ基準はデザインより機能性だ</h2>
     <fieldset>
       <div class="btn-wrapper" id="#1">
-          <input type="radio" name="1" value="yes"/>
+          <input type="radio" name="q1" value="yes"/>
           <label for="yes-1">
               YES
           </label>
-          <input type="radio" name="1" value="no"/>
+          <input type="radio" name="q1" value="no"/>
           <label for="no-1">
               NO
           </label>
@@ -53,11 +53,11 @@
     <div>
     <h2>2.あなたが思う相手の良い点は、落ち着いていて知的なところである</h2>
       <div class="btn-wrapper" id="#1">
-          <input type="radio" name="2" value="yes-2"/>
+          <input type="radio" name="q2" value="yes"/>
           <label for="yes-2">
               YES
           </label>
-          <input type="radio" name="2" value="no-2"/>
+          <input type="radio" name="q2" value="no"/>
           <label class="radio-inline__label2" for="no-2">
               NO
           </label>
@@ -68,11 +68,11 @@
     <div>
     <h2>3.休日は比較的に部屋にいる</h2>
     <div class="btn-wrapper" id="#4">
-      <input type="radio" name="3" value="yes-3"/>
+      <input type="radio" name="q3" value="yes"/>
       <label for="yes-3">
           YES
       </label>
-      <input type="radio" name="3" value="no-3"/>
+      <input type="radio" name="q3" value="no"/>
       <label for="no-3">
           NO
       </label>
@@ -83,11 +83,11 @@
     <div>
     <h2>4.旅行や初めての場所に行く前に徹底的に下調べをしてそうな人だ</h2>
     <div class="btn-wrapper" id="#5">
-      <input type="radio" name="4" value="yes-4"/>
+      <input type="radio" name="q4" value="yes"/>
       <label for="yes-4">
           YES
       </label>
-      <input type="radio" name="4" value="no-4"/>
+      <input type="radio" name="q4" value="no"/>
       <label for="no-4">
           NO
       </label>
@@ -98,11 +98,11 @@
     <div>
     <h2>5.時間はきっちりと守るほうだ</h2>
     <div class="btn-wrapper" id="#6">
-      <input type="radio" name="5" value="yes-5">
+      <input type="radio" name="q5" value="yes">
       <label for="yes-5">
           YES
       </label>
-      <input type="radio" name="5" value="no-5"/>
+      <input type="radio" name="q5" value="no"/>
       <label for="no-5">
           NO
       </label>
@@ -113,11 +113,11 @@
     <div>
     <h2>6.多分ニュース番組よりバラエティ番組のほうが好きそうに見える</h2>
     <div class="btn-wrapper" id="#7">
-      <input type="radio" name="6" value="yes-6"/>
+      <input type="radio" name="q6" value="yes"/>
       <label for="yes-6">
           YES
       </label>
-      <input type="radio" name="6" value="no-6"/>
+      <input type="radio" name="q6" value="no"/>
       <label for="no-6">
           NO
       </label>
@@ -128,11 +128,11 @@
     <div>
     <h2>7.結構、実際の出来事より控えめだったり、多くを語らないイメージがある</h2>
     <div class="btn-wrapper">
-      <input type="radio" name="7" value="">
+      <input type="radio" name="q7" value="yes">
       <label for="yes-7">
           YES
       </label>
-      <input type="radio" name="7" value="no-7"/>
+      <input type="radio" name="q7" value="no"/>
       <label for="no-7">
           NO
       </label>
@@ -143,11 +143,11 @@
     <div>
     <h2>8.一緒に住んだら家事をしてくれそうだ</h2>
     <div class="btn-wrapper">
-      <input type="radio" name="8" value="yes-8">
+      <input type="radio" name="q8" value="yes">
       <label for="yes-8">
           YES
       </label>
-      <input type="radio" name="8" value="no-8"/>
+      <input type="radio" name="q8" value="no"/>
       <label for="no-8">
           NO
       </label>
@@ -158,11 +158,11 @@
       <div>
         <h2>9.何事にもひとつひとつ丁寧に行う</h2>
           <div class="btn-wrapper">
-              <input type="radio" name="9" value="yes-9"/>
+              <input type="radio" name="q9" value="yes"/>
               <label for="yes-9">
                   YES
               </label>
-              <input type="radio" name="9" value="no-9"/>
+              <input type="radio" name="q9" value="no"/>
               <label for="no-9">
                   NO
               </label>
