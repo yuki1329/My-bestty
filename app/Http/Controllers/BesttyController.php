@@ -17,7 +17,6 @@ class BesttyController extends Controller
     public function howto(){
         return view('bestty.howto');
     }
-<<<<<<< HEAD
     public function result(Request $request){
        
         
@@ -79,13 +78,5 @@ class BesttyController extends Controller
         
 
         
-=======
-
-    public function result(){
-
-        // $questions = Bestty::all();
-
-        return view('bestty.result-ma1');
->>>>>>> develop
     }
 }
