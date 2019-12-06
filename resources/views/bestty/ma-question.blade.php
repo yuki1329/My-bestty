@@ -28,7 +28,7 @@
 
 <!-- 内容 -->
 <div class="body-all">
-    <form action="{{ route('bestty.result') }}" method="POST">
+    <form action="{{ route('bestty.result-ma1') }}" method="POST">
     @csrf
     @foreach ($male_questions as $male_question)
     <fieldset>

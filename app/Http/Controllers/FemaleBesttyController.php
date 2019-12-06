@@ -16,6 +16,6 @@ class FemaleBesttyController extends Controller
         // $questions = Bestty::all();
 
 
-        return view('bestty.result');
+        return view('bestty.result-fe1');
     }
 }
