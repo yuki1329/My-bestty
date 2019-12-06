@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="{{ asset('css/app.css') }}">
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <title>QUESTION</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- ヘッダー -->
@@ -32,8 +34,13 @@
         @csrf
             @foreach ($female_questions as $female_question)
             <fieldset>
+<<<<<<< HEAD
             <div class="m-4 p-4 border border-primary">
               <p class="tt">{{$female_question->body}}</p>
+=======
+            <div class="m-4 p-4 border border-secondary">
+              <p>{{$female_question->body}}</p>
+>>>>>>> develop
               <div class="btn-wrapper">
                     <input type="radio" name="question-{{$female_question->id}}" value="yes"/>
                     <label for="yes">
@@ -48,8 +55,13 @@
             </fieldset>
             @endforeach
             <div class="text-center question-result-btn">
+<<<<<<< HEAD
                 <input type="submit" value="結果">
 </div>
+=======
+              <input type="submit" value="Check result!" class="button">
+            </div>
+>>>>>>> develop
 </fieldset>
 </div>
 </form>

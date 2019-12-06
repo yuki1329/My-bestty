@@ -11,20 +11,8 @@
 |
 */
 
-
 Route::get('/bestty/top','BesttyController@index')->name('bestty.index');
-
-
 Route::get('/bestty/ma_question','BesttyController@ma_question')->name('bestty.ma_question');
-
 Route::get('/bestty/fe_question','FemaleBesttyController@fe_question')->name('bestty.fe_question');
-
 Route::get('/bestty/how_to','BesttyController@howto')->name('bestty.howto');
-
-Route::post('/bestty/result-ma1','BesttyController@result')->name('bestty.result-ma1');
-
-Route::post('/bestty/result-fe1','FemaleBesttyController@result')->name('bestty.result-fe1');
-
-
-
-
+Route::post('/bestty/result','BesttyController@result')->name('bestty.result');

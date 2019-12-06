@@ -32,7 +32,7 @@
     @csrf
     @foreach ($male_questions as $male_question)
     <fieldset>
-    <div class="m-4 p-4 border border-primary">
+    <div class="m-4 p-4 border border-secondary">
       <p>{{$male_question->body}}</p>
       <div class="btn-wrapper">
             <input type="radio" name="question-{{$male_question->id}}" value="yes"/>
@@ -51,7 +51,7 @@
 
     {{-- 結果ボタン --}}
     <div class="text-center question-result-btn">
-        <input type="submit" value="結果">
+        <input type="submit" value="Check result!" class="button">
 
 </div>
 </form>
