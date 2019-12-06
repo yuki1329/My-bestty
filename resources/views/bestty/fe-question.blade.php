@@ -33,7 +33,7 @@
             @foreach ($female_questions as $female_question)
             <fieldset>
             <div class="m-4 p-4 border border-primary">
-              <p>{{$female_question->body}}</p>
+              <p class="tt">{{$female_question->body}}</p>
               <div class="btn-wrapper">
                     <input type="radio" name="question-{{$female_question->id}}" value="yes"/>
                     <label for="yes">
