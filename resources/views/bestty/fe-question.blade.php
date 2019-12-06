@@ -48,7 +48,7 @@
             </fieldset>
             @endforeach
             <div class="text-center question-result-btn">
-                <input type="button" value="結果">
+                <input type="submit" value="結果">
 </div>
 </fieldset>
 </div>
