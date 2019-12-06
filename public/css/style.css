@@ -254,11 +254,21 @@
     text-align: center;
     padding-top: 70px;
   }
+  .btn-flat-simple {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+  }
+  
   .btn-flat-simple:hover {
     background: #00bcd4;
     color: white;
   }
-  
 /* footerの編集 */
 .footer {
   margin-top: 50px;
