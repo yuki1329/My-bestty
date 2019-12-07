@@ -13,7 +13,7 @@ class CreateFemalebesttyTable extends Migration
      */
     public function up()
     {
-        Schema::create('questions2', function (Blueprint $table) {
+        Schema::create('female_questions', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('body');
             $table->integer('Ya');
