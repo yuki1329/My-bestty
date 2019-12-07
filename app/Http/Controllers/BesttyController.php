@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\male_question;
 use Illuminate\Http\Request;
-use App\Question;
 class BesttyController extends Controller
 {
     public function index(){
@@ -20,7 +19,7 @@ class BesttyController extends Controller
     public function result(Request $request){
        
         
-        $questions = Question::all();
+        $questions = male_question::all();
         // $id = Question::select('id')->get();
         // $Y =  Question::select('Ya', 'Yb', 'Yc')->get();
         // $N =  Question::select('Na', 'Nb', 'Nc')->get();
