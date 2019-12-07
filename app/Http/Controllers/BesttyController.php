@@ -39,7 +39,7 @@ class BesttyController extends Controller
         foreach($questions as $question)
 
         {
-            $key = 'q' . $question->id;
+            $key = 'question-' . $question->id;
             if ($results[$key] == 'yes') {
                 $a += $question->Ya;
                 $b += $question->Yb;
