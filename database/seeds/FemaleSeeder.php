@@ -20,7 +20,7 @@ class FemaleSeeder extends Seeder
                 'Na'=>'3',
                 'Nb'=>'1',
                 'Nc'=>'2',
-               
+
             ],
             [
                 'body'=>'2.あなたが思う相手の良い点は、落ち着いていてしっかりしている点である。',
