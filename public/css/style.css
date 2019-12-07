@@ -199,24 +199,25 @@
   .body-all{
       text-align: center;
       font-family: 'Noto Sans JP', sans-serif;
-      padding: 100px;
+      padding: 100px 20px 50px;
   }
   /* ボタンの位置調節 */
   .btn-wrapper {
       text-align: center;
-      display: block;
-      position: relative;
-      margin: 30px auto;
+      /* display: block;
+      position: relative; */
+      margin: auto;
       height: auto;
-      width: 500px;
-      padding: 20px;
+      width: auto;
+      /* padding: 20px; */
     }
 
-  .q-1{
-    padding-top: 50px;
+  .questions{
+    padding: 50px;
+    margin: 30px;
   }
 
-  /* アイテムのジャンル名 */
+   /* アイテムのジャンル名 */
     .result-flex-item-name{
       list-style: none;
       display: inline;
