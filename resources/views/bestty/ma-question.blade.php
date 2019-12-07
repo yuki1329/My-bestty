@@ -37,7 +37,7 @@
       <div class="btn-wrapper">
             <input type="radio" name="question-{{$male_question->id}}" value="yes"/>
             <label for="yes">
-                YES 
+                YES
             </label>
             <input type="radio" name="question-{{$male_question->id}}" value="no"/>
             <label for="no">

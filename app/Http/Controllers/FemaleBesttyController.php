@@ -11,7 +11,7 @@ class FemaleBesttyController extends Controller
         $female_questions=female_question::all();
         return view('bestty.fe-question',['female_questions'=>$female_questions]);
     }
-    public function result(Request $request){
+    public function result2(Request $request){
        
         
         $questions = female_question::all();
@@ -48,7 +48,7 @@ class FemaleBesttyController extends Controller
 
 
         }
-       
+
         if( $a > $b && $a >$c ){
             return view('bestty.result-fe1');
         }else if ( $c > $b && $c >$a){

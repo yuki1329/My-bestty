@@ -53,8 +53,9 @@
               <input type="submit" value="Check result!" class="button">
             </div>
 </fieldset>
-</div>
 </form>
+</div>
+
 
 
 
