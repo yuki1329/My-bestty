@@ -2,7 +2,7 @@
 .menu2 {
     z-index: 1000;
   }
-  
+
   /* ボタン */
   .menuBtn {
     position: fixed;
@@ -19,7 +19,7 @@
     background-color: #000000;
     z-index: 7;
   }
-  
+
   .menuBtn::after,
   .menuBtn::before {
     content: '';
@@ -35,14 +35,14 @@
     /* border-color: transparent; */
     transition:transform.3s;
   }
-  
+
   .menuBtn::after {
     border-bottom: none;
     border-top: solid 2px #ffffff;
     box-shadow: 0 -10px 0 #ffffff;
     top: 30px;
   }
-  
+
   /* クリックした時の挙動 */
   .on .menuBtn::before {
     width: 17px;
@@ -52,7 +52,7 @@
     top: 3px;
     left: 14px;
   }
-  
+
   .on .menuBtn::after {
     top: 24px;
     left: 14px;
@@ -198,7 +198,7 @@
   /* 問題の配置、デザインの設定 */
   .body-all{
       text-align: center;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-family: 'Noto Sans JP', sans-serif;
       padding: 100px;
   }
   /* ボタンの位置調節 */
@@ -254,11 +254,21 @@
     text-align: center;
     padding-top: 70px;
   }
-  .btn-flat-simple:hover {
-    background: #00bcd4;
-    color: white;
+  .btn-flat-simple {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: rgb(21, 162, 228);
+    background: #ECECEC;
+    transition: .4s;
   }
   
+  .btn-flat-simple:hover {
+    background: rgb(21, 162, 228);
+    color: white;
+  }
 /* footerの編集 */
 .footer {
   margin-top: 50px;
@@ -319,3 +329,20 @@
   color: dodgerblue;
 }
 
+.button {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 14pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 7px 10px;   /* 余白       */
+  background    : #bbbbbb;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #bbbbbb;    /* 枠の指定 */
+}
+.button:hover {
+  color         : #bbbbbb;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
