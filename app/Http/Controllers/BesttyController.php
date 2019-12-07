@@ -56,12 +56,12 @@ class BesttyController extends Controller
         }
        
         if( $a > $b && $a >$c ){
-            return view('bestty.howto');
+            return view('bestty.result-ma1');
         }else if ( $c > $b && $c >$a){
-            return view('bestty.home');
+            return view('bestty.result-ma2');
 
         }else if ($b > $a && $b > $c){
-            return view('bestty.question');
+            return view('bestty.result-ma3');
         }
         
 
