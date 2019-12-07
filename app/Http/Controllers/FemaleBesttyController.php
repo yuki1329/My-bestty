@@ -48,14 +48,17 @@ class FemaleBesttyController extends Controller
 
 
         }
+        
+
+
 
         if( $a > $b && $a >$c ){
             return view('bestty.result-fe1');
         }else if ( $c > $b && $c >$a){
-            return view('bestty.result-fe2');
+            return view('bestty.result-fe3');
 
         }else if ($b > $a && $b > $c){
-            return view('bestty.result-fe3');
+            return view('bestty.result-fe2');
         }
 }
 }
