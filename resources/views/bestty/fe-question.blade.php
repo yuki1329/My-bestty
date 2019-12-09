@@ -29,7 +29,7 @@
       </div>
 
 <!-- 内容 -->
-<div class="body-all">
+<div class="body-all conteiner">
     <form action="{{ route('bestty.result-fe1') }}" method="POST">
         @csrf
             @foreach ($female_questions as $female_question)
