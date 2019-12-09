@@ -38,7 +38,7 @@
         <div class="border border-secondary questions">
           <p class="question">{{$female_question->body}}</p>
           <div class="btn-wrapper">
-                <input type="radio" name="question-{{$female_question->id}}" value="yes"/>
+                <input type="radio" name="question-{{$female_question->id}}" value="yes" required/>
                 <label for="yes" class="question">
                     YES
                 </label>
@@ -51,7 +51,7 @@
         </fieldset>
         @endforeach
         <div class="text-center question-result-btn">
-          <input type="submit" value="Check result!" class="button">
+          <input type="submit" value="Check result!" class="button" name="result">
         </div>
     </form>
 
