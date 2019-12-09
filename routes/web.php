@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,7 +9,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/bestty/top','BesttyController@index')->name('bestty.index');
 Route::get('/bestty/ma_question','BesttyController@ma_question')->name('bestty.ma_question');
 Route::get('/bestty/fe_question','FemaleBesttyController@fe_question')->name('bestty.fe_question');

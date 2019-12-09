@@ -29,33 +29,33 @@
       </div>
 
 <!-- 内容 -->
-<div class="body-all conteiner">
+<div class="body-all">
+    <h2 class="question-ex">プレゼントを贈りたい相手をイメージして答えよう！</h2>
     <form action="{{ route('bestty.result-fe1') }}" method="POST">
-        @csrf
-            @foreach ($female_questions as $female_question)
-            <fieldset>
-            <div class="m-4 p-4 border border-secondary">
-              <p>{{$female_question->body}}</p>
-              <div class="btn-wrapper">
-                    <input type="radio" name="question-{{$female_question->id}}" value="yes"/>
-                    <label for="yes">
-                        YES
-                    </label>
-                    <input type="radio" name="question-{{$female_question->id}}" value="no"/>
-                    <label for="no">
-                        NO
-                    </label>
-             </div>
-            </div>
-            </fieldset>
-            @endforeach
-            <div class="text-center question-result-btn">
-              <input type="submit" value="Check result!" class="button">
-            </div>
-</fieldset>
-</form>
-</div>
+    @csrf
+        @foreach ($female_questions as $female_question)
+        <fieldset class="question-all">
+        <div class="border border-secondary questions">
+          <p class="question">{{$female_question->body}}</p>
+          <div class="btn-wrapper">
+                <input type="radio" name="question-{{$female_question->id}}" value="yes"/>
+                <label for="yes" class="question">
+                    YES
+                </label>
+                <input type="radio" name="question-{{$female_question->id}}" value="no"/>
+                <label for="no" class="question">
+                    NO
+                </label>
+          </div>
+        </div>
+        </fieldset>
+        @endforeach
+        <div class="text-center question-result-btn">
+          <input type="submit" value="Check result!" class="button">
+        </div>
+    </form>
 
+</div>
 
 
 
