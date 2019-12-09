@@ -33,6 +33,6 @@ class CreateFemalebesttyTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('femalebestty');
+        Schema::dropIfExists('female_questions');
     }
 }

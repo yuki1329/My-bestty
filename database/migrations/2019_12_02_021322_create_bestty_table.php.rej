@@ -1,0 +1,9 @@
+diff a/database/migrations/2019_12_02_021322_create_bestty_table.php b/database/migrations/2019_12_02_021322_create_bestty_table.php	(rejected hunks)
+@@ -13,6 +13,7 @@
+      */
+     public function up()
+     {
++        Schema::create('male_questions', function (Blueprint $table) {
+             $table->bigIncrements('id');
+             $table->text('body');
+             $table->integer('Ya');

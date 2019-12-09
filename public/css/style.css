@@ -1,8 +1,8 @@
-/* メニュー以下のコンテンツの下に潜り込まないように重ね順を上にする */
-.menu2 {
+  /* メニュー以下のコンテンツの下に潜り込まないように重ね順を上にする */
+  .menu2 {
     z-index: 1000;
   }
-
+  
   /* ボタン */
   .menuBtn {
     position: fixed;
@@ -19,7 +19,7 @@
     background-color: #000000;
     z-index: 7;
   }
-
+  
   .menuBtn::after,
   .menuBtn::before {
     content: '';
@@ -35,14 +35,14 @@
     /* border-color: transparent; */
     transition:transform.3s;
   }
-
+  
   .menuBtn::after {
     border-bottom: none;
     border-top: solid 2px #ffffff;
     box-shadow: 0 -10px 0 #ffffff;
     top: 30px;
   }
-
+  
   /* クリックした時の挙動 */
   .on .menuBtn::before {
     width: 17px;
@@ -52,7 +52,7 @@
     top: 3px;
     left: 14px;
   }
-
+  
   .on .menuBtn::after {
     top: 24px;
     left: 14px;
@@ -167,7 +167,7 @@
     }
   }
   
- /* 画面の枠 */
+  /* 画面の枠 */
   body{
       border-top:0px solid #000000;
       border-right:8px solid #000000;
@@ -175,7 +175,7 @@
       border-bottom:8px solid #000000;
       font-family: 'Noto Sans JP', sans-serif;
   
- /* ヘッダーのデザイン */
+  /* ヘッダーのデザイン */
   }
   .site-header{
       background: #000000;
@@ -194,29 +194,29 @@
       font-size: 50px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-
-  /* 問題の配置、デザインの設定 */
+  
+ /* 問題の配置、デザインの設定 */
   .body-all{
       text-align: center;
       font-family: 'Noto Sans JP', sans-serif;
-      padding: 100px;
-  }
-  /* ボタンの位置調節 */
-  .btn-wrapper {
-      text-align: center;
-      display: block;
-      position: relative;
-      margin: 30px auto;
-      height: auto;
-      width: 500px;
-      padding: 20px;
-    }
-
-  .q-1{
-    padding-top: 50px;
+      padding: 100px 20px 50px 20px;
   }
 
-  /* アイテムのジャンル名 */
+  .question-ex{
+    padding-top: 20px;
+  }
+  .questions{
+    padding: 50px;
+    /* margin: 30px; */
+  }
+
+  .question{
+    font-size: 22px;
+  }
+  .question-all{
+    margin: 40px;
+  }
+   /* アイテムのジャンル名 */
     .result-flex-item-name{
       list-style: none;
       display: inline;
@@ -269,6 +269,7 @@
     background: rgb(21, 162, 228);
     color: white;
   }
+
 /* footerの編集 */
 .footer {
   margin-top: 50px;
