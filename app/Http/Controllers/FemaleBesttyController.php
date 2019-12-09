@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Http\Requests\CreateBestty;
 use App\female_question;
 use Illuminate\Http\Request;
 
@@ -11,17 +11,16 @@ class FemaleBesttyController extends Controller
         $female_questions=female_question::all();
         return view('bestty.fe-question',['female_questions'=>$female_questions]);
     }
-    public function result2(Request $request){
-       
-        
+    public function result(CreateBestty $request){
+
+
         $questions = female_question::all();
         // $id = Question::select('id')->get();
         // $Y =  Question::select('Ya', 'Yb', 'Yc')->get();
         // $N =  Question::select('Na', 'Nb', 'Nc')->get();
-        
+
         // $sum = array('A' => 0 , 'B' => 0, 'C' => 0);
         // dd($request);
-    
         $a = 0;
         $b = 0;
         $c = 0;
