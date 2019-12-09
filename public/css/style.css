@@ -202,13 +202,19 @@
       padding: 100px 20px 50px 20px;
   }
 
+  .question-ex{
+    padding-top: 20px;
+  }
   .questions{
     padding: 50px;
     /* margin: 30px; */
   }
 
+  .question{
+    font-size: 22px;
+  }
   .question-all{
-    margin: 30px;
+    margin: 40px;
   }
    /* アイテムのジャンル名 */
     .result-flex-item-name{
