@@ -33,7 +33,7 @@
   <div id="result-top">
   <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
       <img src="{{ asset('img/kirakiragirl.jpeg') }}" class="result-img" alt="結果画面の画像" >
-      <h1 class="result-text">インドア派男子</h1>
+      <h1 class="result-text">３系派男子</h1>
   </div>
   <div class="result-ex">
     <h4>キラキラ系女子はパーティーやイベントが大好き！<br>流行や人気なものに敏感な彼女たちにはこんなものがオススメ！</h4>
