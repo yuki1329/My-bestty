@@ -23,6 +23,10 @@ class CreateBestty extends FormRequest
      */
     public function rules()
     {
+        return [
+            
+            'question-{{$female_question->id}}'=>'required'
+        ];
         
     }
 }

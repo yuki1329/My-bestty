@@ -11,7 +11,7 @@ class FemaleBesttyController extends Controller
         $female_questions=female_question::all();
         return view('bestty.fe-question',['female_questions'=>$female_questions]);
     }
-    public function result(CreateBestty $request){
+    public function result(Request $request){
 
 
         $questions = female_question::all();
