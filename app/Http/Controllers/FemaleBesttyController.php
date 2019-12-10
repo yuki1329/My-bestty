@@ -53,18 +53,29 @@ class FemaleBesttyController extends Controller
 
 
         if( $a > $b && $a >$c ){
-            return view('bestty.result-fe1');
+            return redirect()->route("bestty.result-fe1");
         }else if ( $c > $b && $c >$a){
-            return view('bestty.result-fe3');
+            return redirect()->route("bestty.result-fe3");
 
         }else if ($b > $a && $b > $c){
-            return view('bestty.result-fe2');
+            return redirect()->route("bestty.result-fe2");
         }else if($a = $b || $a = $c){
-            return view('bestty.result-fe1');
+            return redirect()->route("bestty.result-fe1");
         }else if($b = $c){
-            return view('bestty.result-fe2');
+            return redirect()->route("bestty.result-fe2");
         }else if($a = $b = $c){
-            return view('bestty.result-fe1');
+            return redirect()->route("bestty.result-fe3");
         }
+}
+public function resultFe1() {
+    return view('bestty.result-fe1');
+}
+
+public function resultFe2() {
+    return view('bestty.result-fe2');
+}
+
+public function resultFe3() {
+    return view('bestty.result-fe3');
 }
 }
