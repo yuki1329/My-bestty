@@ -34,3 +34,18 @@ $('.menuWrapper').on('click', function(){
   //     return false;
   //   });
   // });
+
+
+  jQuery(document).ready(function($){
+    $("input").each(function(index, element) {
+ 
+        element.addEventListener("invalid", function(e) {
+            if(element.validity.valueMissing){
+                e.target.setCustomValidity("この項目は入力必須です。");
+            } else {
+                e.target.setCustomValidity("");
+                e.preventDefault();
+            }
+        });
+    });
+});
