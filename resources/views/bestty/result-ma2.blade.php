@@ -89,11 +89,22 @@
 </div>
 <footer class="footer">
   <nav>
-    <div class="sns-icon">
-        <i class="fab fa-line fa-2x"></i>
-        <i class="fab fa-twitter fa-2x"></i>
-        <i class="fab fa-facebook-f fa-2x"></i>
-    </div>
+  <div class="sns-icon">
+
+
+<a class="fab fa-line fa-2x" href="http://line.me/R/msg/text/?私は、イケイケ系男子。欲しいプレゼントは、流行をとらえているセンスのあるモノ！みんなも診断して結果をシェアしよう！！！"></a>
+
+
+    
+    <a href="http://twitter.com/share?url=http://127.0.0.1:8000/bestty/result-ma2&text=私は、イケイケ系男子。欲しいプレゼントは、流行をとらえているセンスのあるモノ！みんなも診断して結果をシェアしよう！！！" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://qiita.com/katsuma">
+
+    <i class="fab fa-facebook-f fa-2x"></i>
+  </a>
+   
+    
+</div>
     <img src="{{ asset('img/present.png') }}" alt="a image of present" class="img-present">
     <div class="bestty-title">
       <h4 class="bestty-b">B</h4>
