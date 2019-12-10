@@ -6,6 +6,7 @@ use Carbon\Carbon;
 
 class BesttyTableSeeder extends Seeder
 {
+    
     /**
      * Run the database seeds.
      *

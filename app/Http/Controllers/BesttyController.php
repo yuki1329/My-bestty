@@ -17,16 +17,15 @@ class BesttyController extends Controller
         return view('bestty.howto');
     }
     public function result(Request $request){
-       
-        
+
+
         $questions = male_question::all();
         // $id = Question::select('id')->get();
         // $Y =  Question::select('Ya', 'Yb', 'Yc')->get();
         // $N =  Question::select('Na', 'Nb', 'Nc')->get();
-        
+
         // $sum = array('A' => 0 , 'B' => 0, 'C' => 0);
         // dd($request);
-    
         $a = 0;
         $b = 0;
         $c = 0;
@@ -57,25 +56,18 @@ class BesttyController extends Controller
         if( $a > $b && $a >$c ){
             return view('bestty.result-ma1');
         }else if ( $c > $b && $c >$a){
-            return view('bestty.result-ma2');
+            return view('bestty.result-ma3');
 
         }else if ($b > $a && $b > $c){
-            return view('bestty.result-ma3');
+            return view('bestty.result-ma2');
+        }else if($a = $b || $a = $c){
+            return view('bestty.result-ma1');
+        }else if($b = $c){
+            return view('bestty.result-ma2');
+        }else if($a = $b = $c){
+            return view('bestty.result-ma1');
         }
-        
-
-        
 
 
-        
-        
-
-        
-       
-    
-
-        
-
-        
     }
 }
