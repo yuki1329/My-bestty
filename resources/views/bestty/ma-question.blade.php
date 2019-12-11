@@ -36,12 +36,12 @@
     <div class="border border-secondary questions">
       <p class="question">{{$male_question->body}}</p>
       <div class="btn-wrapper">
-            <input type="radio" name="question-{{$male_question->id}}" value="yes"/>
-            <label for="yes" class="question">
-                YES 
+            <input type="radio" name="question-{{$male_question->id}}" value="yes" id="question-{{$male_question->id}}">
+            <label for="question-{{$male_question->id}}" class="question">
+                YES
             </label>
-            <input type="radio" name="question-{{$male_question->id}}" value="no"/>
-            <label for="no" class="question">
+            <input type="radio" name="question-{{$male_question->id}}" value="no" id="questions-{{$male_question->id}}">
+            <label for="questions-{{$male_question->id}}" class="question">
                 NO
             </label>
      </div>
