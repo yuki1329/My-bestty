@@ -36,3 +36,16 @@ $('.menuWrapper').on('click', function(){
   // });
 
 
+  jQuery(document).ready(function($){
+    $("input").each(function(index, element) {
+ 
+        element.addEventListener("invalid", function(e) {
+            if(element.validity.valueMissing){
+                e.target.setCustomValidity("選択が未選択です");
+            } else {
+                e.target.setCustomValidity("");
+                e.preventDefault();
+            }
+        });
+    });
+});

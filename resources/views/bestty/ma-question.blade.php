@@ -36,7 +36,7 @@
     <div class="border border-secondary questions">
       <p class="question">{{$male_question->body}}</p>
       <div class="btn-wrapper">
-            <input type="radio" name="question-{{$male_question->id}}" value="yes"/>
+            <input type="radio" name="question-{{$male_question->id}}" value="yes"  required/>
             <label for="yes" class="question">
                 YES 
             </label>

@@ -32,11 +32,11 @@
 <div class="result-all">
   <div id="result-top">
   <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
-      <img src="{{ asset('img/kirakiragirl.jpeg') }}" class="result-img" alt="結果画面の画像" >
-      <h1 class="result-text">1系男子</h1>
+      <img src="{{ asset('img/kan.jpg') }}" class="result-img" alt="結果画面の画像" >
+      <h1 class="result-text">まじめ系男子</h1>
   </div>
   <div class="result-ex">
-    <h4>キラキラ系女子はパーティーやイベントが大好き！<br>流行や人気なものに敏感な彼女たちにはこんなものがオススメ！</h4>
+    <h4>まじめ系男子は仕事や勉強が大好き！<br>便利なものが好きな男子たちにはこんなものがオススメ！</h4>
   </div>
         <!-- container -->
         <div class="container mt-1">
