@@ -39,7 +39,7 @@
           <p class="question">{{$female_question->body}}</p>
           <div class="btn-wrapper">
                 <input type="radio" name="question-{{$female_question->id}}" value="yes" id="question-{{$female_question->id}}" required/>
-                <label for="question-{{$female_question->id}}" class="question">
+                <label for="question-{{$female_question->id}}" class="question" aria-required="true">
                     YES
                 </label>
                 <input type="radio" name="question-{{$female_question->id}}" value="no" id="questions-{{$female_question->id}}"/>
