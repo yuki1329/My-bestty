@@ -32,11 +32,11 @@
 <div class="result-all">
   <div id="result-top">
   <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
-      <img src="{{ asset('img/kirakiragirl.jpeg') }}" class="result-img" alt="結果画面の画像" >
-      <h1 class="result-text">1系男子</h1>
+      <img src="{{ asset('img/kan.jpg') }}" class="result-img" alt="結果画面の画像" >
+      <h1 class="result-text">まじめ系男子</h1>
   </div>
   <div class="result-ex">
-    <h4>キラキラ系女子はパーティーやイベントが大好き！<br>流行や人気なものに敏感な彼女たちにはこんなものがオススメ！</h4>
+    <h4>まじめ系男子は仕事や勉強が大好き！<br>便利なものが好きな男子たちにはこんなものがオススメ！</h4>
   </div>
         <!-- container -->
         <div class="container mt-1">
@@ -89,11 +89,22 @@
 </div>
 <footer class="footer">
   <nav>
-    <div class="sns-icon">
-        <i class="fab fa-line fa-2x"></i>
-        <i class="fab fa-twitter fa-2x"></i>
-        <i class="fab fa-facebook-f fa-2x"></i>
-    </div>
+  <div class="sns-icon">
+
+
+<a class="fab fa-line fa-2x" href="http://line.me/R/msg/text/?私は、向上心高め系男子。欲しいプレゼントは、流行をとらえているセンスのあるモノ！みんなも診断して結果をシェアしよう！！！"></a>
+
+
+    
+    <a href="http://twitter.com/share?url=http://127.0.0.1:8000/bestty/result-ma1&text=私は、向上心高め系男子。欲しいプレゼントは、持っているだけで自分がワンランクアップしたように感じるもの！みんなも診断して結果をシェアしよう！！！" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://qiita.com/katsuma">
+
+    <i class="fab fa-facebook-f fa-2x"></i>
+  </a>
+   
+    
+</div>
     <img src="{{ asset('img/present.png') }}" alt="a image of present" class="img-present">
     <div class="bestty-title">
       <h4 class="bestty-b">B</h4>
