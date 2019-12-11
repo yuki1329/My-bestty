@@ -25,7 +25,7 @@ class CreateBestty extends FormRequest
     {
         return [
             
-            'question-{{$female_question->id}}'=>'required'
+            // 'question-{{$female_question->id}}'=>'required'
         ];
         
     }
