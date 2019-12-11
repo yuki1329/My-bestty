@@ -40,6 +40,7 @@
   </div>
         <!-- container -->
         <div class="container mt-1">
+          <h2>彼氏へ</h2>
           <div class="row">
             <div class="col-md-4 mb-3">
               <div class="card">
@@ -80,6 +81,93 @@
         ​
           </div>
         </div>
+
+        <div class="container mt-1">
+          <h2>友達へ</h2>
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="{{ asset('img/presents.jpg') }}" alt="ac" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">Present1
+                  </h5>
+                  <p class="card-text">mosugu chiristmas dayo</p>
+                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                </div>
+              </div>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">Present2</h5>
+                  <p class="card-text">kuribocchi wa kanashiine</p>
+                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- /.col-md-4 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                <div class="card-body text-center">
+                  <h3 class="card-title">Present3</h5>
+                  <p class="card-text">Yuki Ueno wa kuribocchi
+                  </p>
+                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                </div>
+              </div>
+            </div>
+            <!-- /.col-md-4 -->
+        ​
+          </div>
+        </div>
+
+
+       <div class="container mt-1">
+            <h2>家族へ</h2>
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="{{ asset('img/presents.jpg') }}" alt="ac" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Present1
+                    </h5>
+                    <p class="card-text">mosugu chiristmas dayo</p>
+                    <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-md-4 -->
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Present2</h5>
+                    <p class="card-text">kuribocchi wa kanashiine</p>
+                    <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- /.col-md-4 -->
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Present3</h5>
+                    <p class="card-text">Yuki Ueno wa kuribocchi
+                    </p>
+                    <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-md-4 -->
+          ​
+            </div>
+          </div>
 
       <div class="top-btn">
       <a href="{{ route('bestty.index') }}" class="btn-flat-simple">
