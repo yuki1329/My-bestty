@@ -29,7 +29,7 @@
 <!-- 内容 -->
 <div class="body-all">
   <h2 class="question-ex">プレゼントを贈りたい相手をイメージして答えよう！</h2>
-    <form action="{{ route('bestty.resultMa') }}" method="POST">
+    <form action="{{ route('bestty.resultMa') }}" method="POST" id="questionMa">
     @csrf
     @foreach ($male_questions as $male_question)
     <fieldset class="question-all">
@@ -52,9 +52,10 @@
 
     {{-- 結果ボタン --}}
     <div class="text-center question-result-btn">
-        <input type="submit" value="Check result!" class="button">
+        <input type="submit" value="Check result!" class="motherFucker button">
 
     </div>
+    <div class="tohokuret"></div>
     </form>
 </div>
 
