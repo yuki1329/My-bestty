@@ -52,7 +52,7 @@ class BesttyController extends Controller
 
 
         }
-       
+        
         
 
         if( $a > $b && $a >$c ){

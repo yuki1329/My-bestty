@@ -37,16 +37,20 @@
         <fieldset class="question-all" id="q-box-{{$female_question->id}}">
         <div class="border border-secondary questions">
           <p class="question">{{$female_question->body}}</p>
-          <div class="btn-wrapper radio-btn">
-                <input type="radio" name="question-{{$female_question->id}}" value="yes" id="question-{{$female_question->id}}" class="{{$female_question->id}}" required/>
-                <label for="question-{{$female_question->id}}" class="question">
+
+          <div class="btn-wrapper">
+            <div class="question-yes radio-btn" id="{{$female_question->id}}">
+                <input type="radio" name="question-{{$female_question->id}}" value="yes" id="question-{{$female_question->id}}" class="question-yes" required/>
+                <label for="question-{{$female_question->id}}">
                     YES
                 </label>
-                <input type="radio" name="question-{{$female_question->id}}" value="no" id="questions-{{$female_question->id}}" 
-                class="{{$female_question->id}}" required/>
-                <label for="questions-{{$female_question->id}}" class="question">
+            </div>
+            <div class="question-no radio-btn" id="{{$female_question->id}}">
+                <input type="radio" name="question-{{$female_question->id}}" value="no" id="questions-{{$female_question->id}}" class="question-no"/>
+                <label for="questions-{{$female_question->id}}">
                     NO
                 </label>
+            </div>
           </div>
         </div>
         </fieldset>
