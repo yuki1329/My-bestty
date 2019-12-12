@@ -36,14 +36,18 @@
     <div class="border border-secondary questions">
       <p class="question">{{$male_question->body}}</p>
       <div class="btn-wrapper">
+        <div class="question-yes">
             <input type="radio" name="question-{{$male_question->id}}" value="yes" id="question-{{$male_question->id}}">
             <label for="question-{{$male_question->id}}" class="question">
                 YES
             </label>
+        </div>
+        <div class="question-no">
             <input type="radio" name="question-{{$male_question->id}}" value="no" id="questions-{{$male_question->id}}">
             <label for="questions-{{$male_question->id}}" class="question">
                 NO
             </label>
+        </div>
      </div>
     </div>
     </fieldset>
