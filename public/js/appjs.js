@@ -84,3 +84,14 @@ $('.menuWrapper').on('click', function(){
     }
 
     });
+
+    $('.radio-btn').on('click', function(){
+      var id =  $(this).children("input").attr("class");
+      
+      if (id < 9){
+      var nextIdNum = parseInt(id) + 1;
+      
+      var position = $("#q-box-" + nextIdNum).offset().top;
+      $('html, body').animate({scrollTop:parseInt(position) - 150});
+      }
+  });
