@@ -32,17 +32,20 @@
     <form action="{{ route('bestty.resultMa') }}" method="POST" id="questionMa">
     @csrf
     @foreach ($male_questions as $male_question)
-    <fieldset class="question-all">
+    <fieldset class="question-all" id="q-box-{{$male_question->id}}">
     <div class="border border-secondary questions">
       <p class="question">{{$male_question->body}}</p>
+      
+           
+            <!-- はるか-->
       <div class="btn-wrapper">
-        <div class="question-yes">
+        <div class="question-yes radio-btn" id="{{$male_question->id}}">
             <input type="radio" name="question-{{$male_question->id}}" value="yes" id="question-{{$male_question->id}}">
             <label for="question-{{$male_question->id}}" class="question">
                 YES
             </label>
         </div>
-        <div class="question-no">
+        <div class="question-no radio-btn" id="{{$male_question->id}}">
             <input type="radio" name="question-{{$male_question->id}}" value="no" id="questions-{{$male_question->id}}">
             <label for="questions-{{$male_question->id}}" class="question">
                 NO
