@@ -68,12 +68,12 @@
             <!-- /.col-md-4 -->
             <div class="col-md-4">
               <div class="card">
-                <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                <img src="{{ asset('img/mahura-.jpeg') }}" alt="" class="card-img-top">
                 <div class="card-body text-center">
-                  <h3 class="card-title">Present3</h5>
-                  <p class="card-text">Yuki Ueno wa kuribocchi
+                  <h3 class="card-title"></h5>
+                  <p class="card-text">POLO RALPH LAURENウール100%マフラー PC0458 タータンチェック柄
                   </p>
-                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  <a href="https://www.amazon.co.jp/%E3%83%A9%E3%83%AB%E3%83%95%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%80%90POLO-RALPH-LAUREN%E3%80%91%E3%82%A6%E3%83%BC%E3%83%AB100-%E3%83%9E%E3%83%95%E3%83%A9%E3%83%BC-PC0458-%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E6%9F%84/dp/B07YMRGW5Z/ref=sr_1_12?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%83%A9%E3%83%AB%E3%83%95%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3+%E3%83%9E%E3%83%95%E3%83%A9%E3%83%BC+%E3%83%A1%E3%83%B3%E3%82%BA&qid=1576080073&sr=8-12" class="btn btn-outline-info btn-sm">detail</a>
                 </div>
               </div>
             </div>
@@ -87,23 +87,23 @@
           <div class="row">
             <div class="col-md-4 mb-3">
               <div class="card">
-                <img src="{{ asset('img/presents.jpg') }}" alt="ac" class="card-img-top">
+                <img src="{{ asset('img/penpen.jpg') }}" alt="ac" class="card-img-top">
                 <div class="card-body text-center">
-                  <h3 class="card-title">Present1
+                  <h3 class="card-title">
                   </h5>
-                  <p class="card-text">mosugu chiristmas dayo</p>
-                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  <p class="card-text">ウォーターマン メトロポリタン</p>
+                  <a href="https://www.amazon.co.jp/%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%9E%E3%83%B3-%E3%83%A1%E3%83%88%E3%83%AD%E3%83%9D%E3%83%AA%E3%82%BF%E3%83%B3-%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%AB-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AFCT-S2259322/dp/B005IEQN22/ref=sr_1_2_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%9E%E3%83%B3%EF%BC%88WATERMAN%EF%BC%89+%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%9A%E3%83%B3&qid=1576080332&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyWFlYUE5LNzM5QTM2JmVuY3J5cHRlZElkPUEwMDM0MTkxMjdNNTBJMkpaM0hQMyZlbmNyeXB0ZWRBZElkPUEyNjZXT1BTTzdFUUMzJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==" class="btn btn-outline-info btn-sm">detail</a>
                 </div>
               </div>
             </div>
             <!-- /.col-md-4 -->
             <div class="col-md-4 mb-3">
               <div class="card">
-                <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                <img src="{{ asset('img/taoru.jpg') }}" alt="" class="card-img-top">
                 <div class="card-body text-center">
-                  <h3 class="card-title">Present2</h5>
-                  <p class="card-text">kuribocchi wa kanashiine</p>
-                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  <h3 class="card-title"></h5>
+                  <p class="card-text">hiorie 今治タオル フェイスタオル リ 4枚セット</p>
+                  <a href="https://www.amazon.co.jp/dp/B07W68XNWM/ref=twister_B07SWYZDLQ?_encoding=UTF8&psc=1" class="btn btn-outline-info btn-sm">detail</a>
                 </div>
               </div>
             </div>
@@ -111,12 +111,12 @@
             <!-- /.col-md-4 -->
             <div class="col-md-4">
               <div class="card">
-                <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                <img src="{{ asset('img/suitou.jpg') }}" alt="" class="card-img-top">
                 <div class="card-body text-center">
-                  <h3 class="card-title">Present3</h5>
-                  <p class="card-text">Yuki Ueno wa kuribocchi
+                  <h3 class="card-title"></h5>
+                  <p class="card-text">KINTO トラベルタンブラー 350ml
                   </p>
-                  <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  <a href="https://www.amazon.co.jp/KINTO-%E3%82%AD%E3%83%B3%E3%83%88%E3%83%BC-%E3%82%BF%E3%83%B3%E3%83%96%E3%83%A9%E3%83%BC-%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%96%E3%83%A9%E3%83%BC-20935-0/dp/B075LN813Z/ref=sr_1_3?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%83%88%E3%83%A9%E3%83%99%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%96%E3%83%A9%E3%83%BC&qid=1576114001&sr=8-3&th=1" class="btn btn-outline-info btn-sm">detail</a>
                 </div>
               </div>
             </div>
@@ -125,49 +125,6 @@
           </div>
         </div>
 
-
-       <div class="container mt-1">
-            <h2>家族へ</h2>
-            <div class="row">
-              <div class="col-md-4 mb-3">
-                <div class="card">
-                  <img src="{{ asset('img/presents.jpg') }}" alt="ac" class="card-img-top">
-                  <div class="card-body text-center">
-                    <h3 class="card-title">Present1
-                    </h5>
-                    <p class="card-text">mosugu chiristmas dayo</p>
-                    <a href="#" class="btn btn-outline-info btn-sm">detail</a>
-                  </div>
-                </div>
-              </div>
-              <!-- /.col-md-4 -->
-              <div class="col-md-4 mb-3">
-                <div class="card">
-                  <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
-                  <div class="card-body text-center">
-                    <h3 class="card-title">Present2</h5>
-                    <p class="card-text">kuribocchi wa kanashiine</p>
-                    <a href="#" class="btn btn-outline-info btn-sm">detail</a>
-                  </div>
-                </div>
-              </div>
-  
-              <!-- /.col-md-4 -->
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
-                  <div class="card-body text-center">
-                    <h3 class="card-title">Present3</h5>
-                    <p class="card-text">Yuki Ueno wa kuribocchi
-                    </p>
-                    <a href="#" class="btn btn-outline-info btn-sm">detail</a>
-                  </div>
-                </div>
-              </div>
-              <!-- /.col-md-4 -->
-          ​
-            </div>
-          </div>
 
       <div class="top-btn">
       <a href="{{ route('bestty.index') }}" class="btn-flat-simple">

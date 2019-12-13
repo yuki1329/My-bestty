@@ -33,13 +33,14 @@
   <div id="result-top">
   <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
       <img src="{{ asset('img/kirakiragirl.jpeg') }}" class="result-img" alt="結果画面の画像" >
-      <h1 class="result-text">３系派男子</h1>
+      <h1 class="result-text">インドア系派男子</h1>
   </div>
   <div class="result-ex">
-    <h4>キラキラ系女子はパーティーやイベントが大好き！<br>流行や人気なものに敏感な彼女たちにはこんなものがオススメ！</h4>
+    <h4>インドア系男子は部屋が大好き！<br>流行や人気なものに敏感な彼らはこんなものがオススメ！</h4>
   </div>
         <!-- container -->
         <div class="container mt-1">
+          <h3>彼氏へ</h3>
           <div class="row">
             <div class="col-md-4 mb-3">
               <div class="card">
@@ -80,6 +81,50 @@
         ​
           </div>
         </div>
+
+
+        <div class="container mt-1">
+            <h3>友達へ</h3>
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="{{ asset('img/presents.jpg') }}" alt="ac" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Present1
+                    </h5>
+                    <p class="card-text">mosugu chiristmas dayo</p>
+                    <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-md-4 -->
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Present2</h5>
+                    <p class="card-text">kuribocchi wa kanashiine</p>
+                    <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- /.col-md-4 -->
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="{{ asset('img/presents.jpg') }}" alt="" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h3 class="card-title">Present3</h5>
+                    <p class="card-text">Yuki Ueno wa kuribocchi
+                    </p>
+                    <a href="#" class="btn btn-outline-info btn-sm">detail</a>
+                  </div>
+                </div>
+              </div>
+              <!-- /.col-md-4 -->
+          ​
+            </div>
+          </div>
 
       <div class="top-btn">
       <a href="{{ route('bestty.index') }}" class="btn-flat-simple">
