@@ -37,10 +37,11 @@
 
   </div>
   <div class="result-ex">
-    <h4>キラキラ系女子はパーティーやイベントが大好き！<br>流行や人気なものに敏感な彼女たちにはこんなものがオススメ！</h4>
+    <h4>個性派女子はみんなから一目置かれる特別な存在！<br>人と違う個性的なものを好む彼女たちにはこんなものがオススメ！</h4>
   </div>
-        <!-- container -->
+        {{-- <!-- container --         --}}
         <div class="container mt-1">
+        <h2>彼女へのプレゼント</h2>
           <div class="row">
             <div class="col-md-4 mb-3">
               <div class="card">
@@ -77,6 +78,11 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+          <div class="container mt-1">
+              <h2>女友達へのプレゼント</h2>
+              <div class="row">
             <!-- /.col-md-4 -->
             <div class="col-md-4 mb-3">
               <div class="card">

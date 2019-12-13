@@ -36,10 +36,11 @@
       <h1 class="result-text">オトナ女子</h1>
   </div>
   <div class="result-ex">
-    <h4>キラキラ系女子はパーティーやイベントが大好き！<br>流行や人気なものに敏感な彼女たちにはこんなものがオススメ！</h4>
+    <h4>オトナ女子は仕事や勉強をしっかりこなすお姉さん的存在！<br>長く使えるシンプルなものを好む彼女たちにはこんなものがオススメ！</h4>
   </div>
         <!-- container -->
         <div class="container mt-1">
+          <h2>彼女へのプレゼント</h2>
           <div class="row">
             <div class="col-md-4 mb-3">
               <div class="card">
@@ -76,6 +77,11 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+          <div class="container mt-1">
+              <h2>女友達へのプレゼント</h2>
+              <div class="row">
             <!-- /.col-md-4 -->
             <div class="col-md-4 mb-3">
               <div class="card">
