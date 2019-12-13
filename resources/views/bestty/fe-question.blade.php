@@ -31,28 +31,34 @@
 <!-- 内容 -->
 <div class="body-all">
     <h2 class="question-ex">プレゼントを贈りたい相手をイメージして答えよう！</h2>
-    <form action="{{ route('bestty.resultFe') }}" method="POST">
+    <form action="{{ route('bestty.resultFe') }}" method="POST" id="questionFe">
     @csrf
         @foreach ($female_questions as $female_question)
-        <fieldset class="question-all">
+        <fieldset class="question-all" id="q-box-{{$female_question->id}}">
         <div class="border border-secondary questions">
           <p class="question">{{$female_question->body}}</p>
+
           <div class="btn-wrapper">
-                <input type="radio" name="question-{{$female_question->id}}" value="yes" id="question-{{$female_question->id}}" required/>
-                <label for="question-{{$female_question->id}}" class="question" aria-required="true">
+            <div class="question-yes radio-btn" id="{{$female_question->id}}">
+                <input type="radio" name="question-{{$female_question->id}}" value="yes" id="question-{{$female_question->id}}" class="question-yes" required/>
+                <label for="question-{{$female_question->id}}">
                     YES
                 </label>
-                <input type="radio" name="question-{{$female_question->id}}" value="no" id="questions-{{$female_question->id}}"/>
-                <label for="questions-{{$female_question->id}}" class="question">
+            </div>
+            <div class="question-no radio-btn" id="{{$female_question->id}}">
+                <input type="radio" name="question-{{$female_question->id}}" value="no" id="questions-{{$female_question->id}}" class="question-no"/>
+                <label for="questions-{{$female_question->id}}">
                     NO
                 </label>
+            </div>
           </div>
         </div>
         </fieldset>
         @endforeach
         <div class="text-center question-result-btn">
-          <input type="submit" value="Check result!" class="button" name="result">
+          <input type="submit" value="Check result!" class="button motherFucker" name="result">
         </div>
+        <div class="tohokuret"></div>
     </form>
 
 </div>
