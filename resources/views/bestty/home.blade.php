@@ -65,7 +65,7 @@
 
 
 
-    <p class="text-center">センスでプレゼントを決めるサイト</p>
+    <p class="text-center">相手の性格を診断してプレゼントを選ぶサイト</p>
     <h3 class="text-center choose-ex">プレゼントを贈る相手の性別を選択しよう！</h3>
 
     <div class="text-center gender-chose">
@@ -98,11 +98,11 @@
        </div>
      </div>
 
-    <p class="text-color-best">BEST</p>
-    <p>なプレゼントをして、お互いに</p>
-    <p class="text-color-happy">HAPPY</p>
-    <p>になろうという</p>
-    <p>コンセプトです。</p>
+    <h4 class="m-3 text-color-best">BEST</h4>
+    <h6>なプレゼントをして、お互いに</h6>
+    <h4 class="m-3 text-color-happy">HAPPY</h4>
+    <h6>になろうという</h6>
+    <h6>コンセプトです。</h6>
 
 
     </div>
