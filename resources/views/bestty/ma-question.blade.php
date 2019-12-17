@@ -40,7 +40,7 @@
             <!-- はるか-->
       <div class="btn-wrapper">
         <div class="question-yes radio-btn" id="{{$male_question->id}}">
-            <input type="radio" name="question-{{$male_question->id}}" value="yes" id="question-{{$male_question->id}}">
+            <input type="radio" name="question-{{$male_question->id}}" value="yes" id="question-{{$male_question->id}}" required>
             <label for="question-{{$male_question->id}}" class="question">
                 YES
             </label>
