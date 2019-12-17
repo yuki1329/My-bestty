@@ -24,7 +24,7 @@
     <ul id="menu">
       <li><a href="{{ route('bestty.index') }}" method="GET">ホームへ戻る</a></li>
       <li><a href="{{ route('bestty.howto') }}" method="GET">使い方</a></li>
-      <li><a href="#">ちんちん</a></li>
+      <li><a href="#"></a></li>
     </ul>
   </div>
 
@@ -32,7 +32,7 @@
 <div class="result-all">
   <div id="result-top">
   <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
-      <img src="{{ asset('img/otonajoshi.jpg') }}" class="result-img" alt="結果画面の画像" >
+      <img src="{{ asset('img/baby2.jpg') }}" class="result-img" alt="結果画面の画像" >
       <h1 class="result-text">オトナ女子</h1>
   </div>
   <div class="result-ex">
