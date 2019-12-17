@@ -32,7 +32,7 @@
 <div class="result-all">
   <div id="result-top">
   <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
-      <img src="{{ asset('img/kan.jpg') }}" class="result-img" alt="結果画面の画像" >
+      <img src="{{ asset('img/kankankan.jpg') }}" class="result-img" alt="結果画面の画像" >
       <h1 class="result-text">まじめ系男子</h1>
   </div>
   <div class="result-ex">
