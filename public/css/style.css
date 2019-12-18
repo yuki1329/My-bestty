@@ -1,5 +1,5 @@
-/* メニュー以下のコンテンツの下に潜り込まないように重ね順を上にする */
-.menu2 {
+  /* メニュー以下のコンテンツの下に潜り込まないように重ね順を上にする */
+  .menu2 {
     z-index: 1000;
   }
   
@@ -138,6 +138,7 @@
   */
   
   .on.menuWrapper + #menu{
+    z-index: 100;
     width: 200px;
   }
   
@@ -167,7 +168,7 @@
     }
   }
   
- /* 画面の枠 */
+  /* 画面の枠 */
   body{
       border-top:0px solid #000000;
       border-right:8px solid #000000;
@@ -175,7 +176,7 @@
       border-bottom:8px solid #000000;
       font-family: 'Noto Sans JP', sans-serif;
   
- /* ヘッダーのデザイン */
+  /* ヘッダーのデザイン */
   }
   .site-header{
       background: #000000;
@@ -194,29 +195,148 @@
       font-size: 50px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-
-  /* 問題の配置、デザインの設定 */
+  
+ /* 問題の配置、デザインの設定 */
   .body-all{
       text-align: center;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      padding: 100px;
-  }
-  /* ボタンの位置調節 */
-  .btn-wrapper {
-      text-align: center;
-      display: block;
-      position: relative;
-      margin: 30px auto;
-      height: auto;
-      width: 500px;
-      padding: 20px;
-    }
-
-  .q-1{
-    padding-top: 50px;
+      font-family: 'Noto Sans JP', sans-serif;
+      padding: 100px 20px 50px 20px;
   }
 
-  /* アイテムのジャンル名 */
+  .question-ex{
+    padding-top: 20px;
+  }
+  .questions{
+    padding: 50px;
+    /* margin: 30px; */
+  }
+
+  .question{
+    font-size: 22px;
+  }
+  .question-all{
+    margin: 40px;
+  }
+  .btn-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+.question-yes input[type="radio"] {
+  width         : 20pt;        /* 大きさ：横 */
+  height        : 20pt;        /* 大きさ：縦 */
+  vertical-align: top;         /* 並び位置   */
+  display       : none;        /* チェックボックス非表示 */
+}
+ /* --- チェックボックス直後のlabel --- */
+.question-yes input[type="radio"] + label {
+  padding       : 0 6px;                      /* labelの余白 */
+  margin: 3px;
+  font-size     : 16pt;                       /* labelの文字サイズ */
+  font-weight   : bold;                       /* 文字太さ   */
+  border        : 2px solid #949494; /* labelの枠線 */
+  color: #949494;
+  border-radius : 5px;                        /* labelの角丸 */
+  background    : #ffffff;                    /* lebelの背景 */
+  cursor        : pointer;                    /* カーソル設定 */
+  transition    : .2s;                        /* なめらか変化 */
+}
+ /* --- 選択されたチェックボックス直後のlabel --- */
+.question-yes input[type="radio"]:checked + label {
+  background    : #ffffff;                    /* lebelの背景 */
+  color: #ff5d5d;
+  border        : 2px solid #ff5d5d; /* labelの枠線 */
+}
+ /* --- 選択されていないチェックボックス直後のlabelにマウスが乗った --- */
+.question-yes input[type="radio"]:not(:checked) + label:hover {
+  background    : rgba(204, 204, 204, 0.40);     /* lebelの背景 */
+}
+
+
+.question-no input[type="radio"] {
+  width         : 20pt;        /* 大きさ：横 */
+  height        : 20pt;        /* 大きさ：縦 */
+  vertical-align: top;         /* 並び位置   */
+  display       : none;        /* チェックボックス非表示 */
+}
+ /* --- チェックボックス直後のlabel --- */
+.question-no input[type="radio"] + label {
+  padding       : 0 6px;                      /* labelの余白 */
+  margin: 3px;
+  font-size     : 16pt;                       /* labelの文字サイズ */
+  font-weight   : bold;                       /* 文字太さ   */
+  border        : 2px solid #949494; /* labelの枠線 */
+  color: #949494;
+  border-radius : 5px;                        /* labelの角丸 */
+  background    : #ffffff;                    /* lebelの背景 */
+  cursor        : pointer;                    /* カーソル設定 */
+  transition    : .2s;                        /* なめらか変化 */
+}
+ /* --- 選択されたチェックボックス直後のlabel --- */
+.question-no input[type="radio"]:checked + label {
+  background    : #ffffff;                    /* lebelの背景 */
+  border        : 2px solid #3a9ffd; /* labelの枠線 */
+  color: #3a9ffd;
+}
+ /* --- 選択されていないチェックボックス直後のlabelにマウスが乗った --- */
+.question-no input[type="radio"]:not(:checked) + label:hover {
+  background    : rgba(204, 204, 204, 0.40);     /* lebelの背景 */
+}
+
+.button {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 14pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 7px 10px;   /* 余白       */
+  background    : #bbbbbb;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #bbbbbb;    /* 枠の指定 */
+}
+.button:hover {
+  color         : #bbbbbb;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+.btn-fe-result {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 14pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 7px 10px;   /* 余白       */
+  background    : #ff6e6e;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #ff6e6e;    /* 枠の指定 */
+}
+.btn-fe-result:hover {
+  color         : #ff6e6e;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+.btn-ma-result {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 14pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 7px 10px;   /* 余白       */
+  background    : #55a3fc;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #55a3fc;    /* 枠の指定 */
+}
+.btn-ma-result:hover {
+  color         : #55a3fc;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+   /* アイテムのジャンル名 */
     .result-flex-item-name{
       list-style: none;
       display: inline;
@@ -250,15 +370,27 @@
       text-align: center;
       padding-bottom: 50px;
     }
+    
   .top-btn{
     text-align: center;
     padding-top: 70px;
   }
-  .btn-flat-simple:hover {
-    background: #00bcd4;
-    color: white;
+  .btn-flat-simple {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: rgb(21, 162, 228);
+    background: #ECECEC;
+    transition: .4s;
   }
   
+  .btn-flat-simple:hover {
+    background: rgb(21, 162, 228);
+    color: white;
+  }
+
 /* footerの編集 */
 .footer {
   margin-top: 50px;
@@ -317,8 +449,4 @@
 }
 .fa-facebook-f{
   color: dodgerblue;
-}
-
-.tt{
-  font-size: 20px;
 }

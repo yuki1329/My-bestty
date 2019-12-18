@@ -20,7 +20,7 @@ class FemaleSeeder extends Seeder
                 'Na'=>'3',
                 'Nb'=>'1',
                 'Nc'=>'2',
-               
+
             ],
             [
                 'body'=>'2.あなたが思う相手の良い点は、落ち着いていてしっかりしている点である。',
@@ -104,7 +104,7 @@ class FemaleSeeder extends Seeder
             ];
             foreach ($bestty2 as $best2) {
 
-                DB::table('questions2')->insert([
+                DB::table('female_questions')->insert([
                     'body'=>$best2['body'],
                     'Ya' => $best2['Ya'],
                     'Yb' => $best2['Yb'],

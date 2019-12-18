@@ -65,7 +65,7 @@
 
 
 
-    <p class="text-center">センスでプレゼントを決めるサイト</p>
+    <p class="text-center">相手の性格を診断してプレゼントを選ぶサイト</p>
     <h3 class="text-center choose-ex">プレゼントを贈る相手の性別を選択しよう！</h3>
 
     <div class="text-center gender-chose">
@@ -98,11 +98,11 @@
        </div>
      </div>
 
-    <p class="text-color-best">BEST</p>
-    <p>なプレゼントをして、お互いに</p>
-    <p class="text-color-happy">HAPPY</p>
-    <p>になろうという</p>
-    <p>コンセプトです。</p>
+    <h4 class="m-3 text-color-best">BEST</h4>
+    <h6>なプレゼントをして、お互いに</h6>
+    <h4 class="m-3 text-color-happy">HAPPY</h4>
+    <h6>になろうという</h6>
+    <h6>コンセプトです。</h6>
 
 
     </div>
@@ -115,7 +115,10 @@
   <nav>
     <div class="sns-icon">
 
+
     <a class="fab fa-line fa-2x" href="http://line.me/R/msg/text/?best gift for best friend,http://127.0.0.1:8000"></a>
+
+
         
         <a href="http://twitter.com/share?url=http://127.0.0.1:8000&text=gift for best friend" class="fab fa-twitter fa-2x" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

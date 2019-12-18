@@ -38,13 +38,13 @@
     <img src="{{ asset('img/chose.png') }}" alt="a image of chose" class="img-chose">
     <div class="howto-text">
       <h3>1.First step</h3>
-      <h2>Chose gender</h2>
+      <h2>Chose the gender of the person<br>you want to give presents.</h2>
     </div>
 </div>
 <div class="howto-content">
     <div class="howto-text">
       <h3>2.Second step</h3>
-      <h2>Answer 9 questions!</h2>
+      <h2>Answer 9 questions<br>by thinking of the person<br>you want to give presents.</h2>
     </div>
     <img src="{{ asset('img/answer.png') }}" alt="a image of answer" class="img-answer">
 </div>
@@ -52,12 +52,14 @@
   <img src="{{ asset('img/result-present.png') }}" alt="a image of result" class="img-result">
   <div class="howto-text">
     <h3>3.Third step</h3>
-    <h2>Check result!</h2>
+    <h2>Check the results and<br>go to buy presents<br>while referring to the results!</h2>
   </div>
 </div>
-<div class="btn-return">
-<a href="{{ route('bestty.index') }}"><button class="return-home btn btn-info">Let's check!</button></a>
-</div>
+  <div class="top-btn">
+  <a href="{{ route('bestty.index') }}" class="btn-flat-simple">
+    <i class="fa fa-caret-right"></i> Let's check!
+  </a>
+  </div>
 <footer class="footer">
   <nav>
     <div class="sns-icon">

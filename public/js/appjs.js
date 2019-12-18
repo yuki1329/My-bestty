@@ -1,3 +1,4 @@
+
 // ハンバーガーメニューの作成
 
 $('.menuWrapper').on('click', function(){
@@ -35,3 +36,64 @@ $('.menuWrapper').on('click', function(){
   // });
 
 
+  jQuery(document).ready(function($){
+    $("input").each(function(index, element) {
+ 
+        element.addEventListener("invalid", function(e) {
+            if(element.validity.valueMissing){
+                e.target.setCustomValidity("選択が未選択です");
+            } else {
+                e.target.setCustomValidity("");
+                e.preventDefault();
+            }
+        });
+    });
+});
+
+
+  $('input:radio').change(function() {
+      var cntFe = $('#questionFe input:radio:checked').length;
+      
+      // $('div.tohokuret').text('９問中 選択：' + cntFe + '個');
+
+      if( cntFe <= 8 )
+    {
+      $("input.motherFucker").removeClass("button");
+      $('input.motherFucker').addClass("button");
+    }else if( cntFe = 9 ){
+      $("input.motherFucker").removeClass("button");
+      $('input.motherFucker').addClass("btn-fe-result");
+
+    }
+
+    });
+
+    $('input:radio').change(function() {
+      var cnt = $('#questionMa input:radio:checked').length;
+      
+      // $('div.tohokuret').text('9問中 選択：' + cnt + '個');
+
+      if( cnt <= 8 )
+    {
+      $("input.motherFucker").removeClass("button");
+      $('input.motherFucker').addClass("button");
+    }else if( cnt = 9 ){
+      $("input.motherFucker").removeClass("button");
+      $('input.motherFucker').addClass("btn-ma-result");
+
+    }
+
+    });
+
+    $('.radio-btn').on('click', function(){
+      var id =  $(this).attr("id");
+      if (id < 9){
+      var nextIdNum = parseInt(id) + 1;
+      alert(nextIdNum);
+      
+      
+      var position = $("#q-box-" + nextIdNum).offset().top;
+      
+      $('html, body').animate({scrollTop:parseInt(position) - 150});
+      }
+  });
