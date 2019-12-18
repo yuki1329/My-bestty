@@ -30,7 +30,7 @@
 
 <!-- 内容 -->
 <div class="body-all">
-    <h2 class="question-ex">プレゼントを贈りたい相手をイメージして答えよう！</h2>
+    <h2 class="question-ex">Let's answer the image of the person you want to give a present!</h2>
     <form action="{{ route('bestty.resultFe') }}" method="POST" id="questionFe">
     @csrf
         @foreach ($female_questions as $female_question)
