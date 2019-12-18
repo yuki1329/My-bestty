@@ -16,7 +16,7 @@ class BesttyTableSeeder extends Seeder
     {
         $bestty=[
             [
-                'body'=>'1.ものを選ぶ基準はデザインより機能性だ。',
+                'body'=>'1.The criteria for choosing things is more functional than design',
                 'Ya'=>'3',
                 'Yb'=>'1',
                 'Yc'=>'2',
@@ -26,7 +26,7 @@ class BesttyTableSeeder extends Seeder
                 
             ],
             [
-                'body'=>'2.あなたが思う相手の良い点は、おしゃれでセンスがあるところだ。',
+                'body'=>'2.The good thing about the person you think is that it is fashionable and good taste',
                 'Ya'=>'1',
                 'Yb'=>'3',
                 'Yc'=>'2',
@@ -36,7 +36,7 @@ class BesttyTableSeeder extends Seeder
                 
             ],
             [
-                'body'=>'3.何事にもひとつひとつ丁寧に行う。',
+                'body'=>'3.Carefully do everything one by one',
                 'Ya'=>'2',
                 'Yb'=>'1',
                 'Yc'=>'3',
@@ -46,7 +46,7 @@ class BesttyTableSeeder extends Seeder
                 
             ],
             [
-                'body'=>'4.休日は比較的に外へ出かける。',
+                'body'=>'4.usually go out on holidays',
                 'Ya'=>'2',
                 'Yb'=>'3',
                 'Yc'=>'1',
@@ -56,7 +56,7 @@ class BesttyTableSeeder extends Seeder
                 
             ],
             [
-                'body'=>'5.旅行や初めての場所にいく前に徹底的に下調べをしてそうな人だ。',
+                'body'=>'5.Someone who seems to do a thorough examination before traveling or going to their first place.',
                 'Ya'=>'3',
                 'Yb'=>'2',
                 'Yc'=>'1',
@@ -66,7 +66,7 @@ class BesttyTableSeeder extends Seeder
                 
             ],
             [
-                'body'=>'6.時間はきっちりと守るほうだ。',
+                'body'=>'6.punctual person',
                 'Ya'=>'3',
                 'Yb'=>'1',
                 'Yc'=>'2',
@@ -76,7 +76,7 @@ class BesttyTableSeeder extends Seeder
                 
             ],
             [
-                'body'=>'7.たぶんニュース番組よりバラエティ番組のほうが好きそうに見える。',
+                'body'=>'7.prefer variety programs to news programs',
                 'Ya'=>'1',
                 'Yb'=>'2',
                 'Yc'=>'3',
@@ -86,7 +86,7 @@ class BesttyTableSeeder extends Seeder
                 
             ],
             [
-                'body'=>'8.結構、実際の出来事より誇張してしまう。',
+                'body'=>'8.often exaggerate something about himself',
                 'Ya'=>'2',
                 'Yb'=>'3',
                 'Yc'=>'1',
@@ -96,7 +96,7 @@ class BesttyTableSeeder extends Seeder
                 
             ],
             [
-                'body'=>'9.一緒に住んだら家事してくれそうだ。',
+                'body'=>'9.if you live together, he seems to do housework',
                 'Ya'=>'1',
                 'Yb'=>'2',
                 'Yc'=>'3',
