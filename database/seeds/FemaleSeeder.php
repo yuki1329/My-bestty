@@ -13,7 +13,7 @@ class FemaleSeeder extends Seeder
     {
         $bestty2=[
             [
-                'body'=>'1.流行りものや新商品より、長く使えるものを好む傾向がありそうだ。',
+                'body'=>'1.prefer products that can be used for a long time rather than trendy items or new products.',
                 'Ya'=>'1',
                 'Yb'=>'3',
                 'Yc'=>'2',
@@ -23,7 +23,7 @@ class FemaleSeeder extends Seeder
 
             ],
             [
-                'body'=>'2.あなたが思う相手の良い点は、落ち着いていてしっかりしている点である。',
+                'body'=>'2.The good thing that you think is that he is calm and firm.',
                 'Ya'=>'1',
                 'Yb'=>'3',
                 'Yc'=>'2',
@@ -33,7 +33,7 @@ class FemaleSeeder extends Seeder
                
             ],
             [
-                'body'=>'3.比較的イベントやパーティーなどによく参加するイメージがある。',
+                'body'=>'3.you think that she often participate in events and parties',
                 'Ya'=>'3',
                 'Yb'=>'2',
                 'Yc'=>'1',
@@ -43,7 +43,7 @@ class FemaleSeeder extends Seeder
                 
             ],
             [
-                'body'=>'4.ファッションや持ち物にこだわりが強そうなイメージがある。',
+                'body'=>'4.she has a strong preference for her property and clothing',
                 'Ya'=>'2',
                 'Yb'=>'1',
                 'Yc'=>'3',
@@ -53,7 +53,7 @@ class FemaleSeeder extends Seeder
                
             ],
             [
-                'body'=>'5.周りからよく変わっていると言われるタイプの人である。',
+                'body'=>'5.she is a type of person who is often thought  as mysterious by others.',
                 'Ya'=>'2',
                 'Yb'=>'1',
                 'Yc'=>'3',
@@ -63,7 +63,7 @@ class FemaleSeeder extends Seeder
                
             ],
             [
-                'body'=>'6.結構、盛り気味に（大げさに）ものを言っていそうなイメージがある。',
+                'body'=>'6.often exaggerate something about herself',
                 'Ya'=>'3',
                 'Yb'=>'1',
                 'Yc'=>'2',
@@ -73,7 +73,7 @@ class FemaleSeeder extends Seeder
             
             ],
             [
-                'body'=>'7.比較的休日は部屋にいることが多そうである。',
+                'body'=>'7.you think  she often spend time at home on holiday',
                 'Ya'=>'1',
                 'Yb'=>'2',
                 'Yc'=>'3',
@@ -83,7 +83,7 @@ class FemaleSeeder extends Seeder
                
             ],
             [
-                'body'=>'8.仕事場の先輩などの、年上とも人づきあいが良さそうな人である。',
+                'body'=>'8.She has an affable personality',
                 'Ya'=>'2',
                 'Yb'=>'3',
                 'Yc'=>'1',
@@ -93,7 +93,7 @@ class FemaleSeeder extends Seeder
                 
             ],
             [
-                'body'=>'9.バラエティ番組や連続ドラマを比較的好むイメージがある。',
+                'body'=>'9.prefer variety programs  or TV drama to news programs',
                 'Ya'=>'3',
                 'Yb'=>'2',
                 'Yc'=>'1',
