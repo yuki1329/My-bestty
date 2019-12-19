@@ -24,7 +24,6 @@
     <ul id="menu">
       <li><a href="{{ route('bestty.index') }}" method="GET">ホームへ戻る</a></li>
       <li><a href="{{ route('bestty.howto') }}" method="GET">使い方</a></li>
-      <li><a href="#"></a></li>
     </ul>
   </div>
 
