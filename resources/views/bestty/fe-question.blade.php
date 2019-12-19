@@ -24,7 +24,6 @@
         <ul id="menu">
           <li><a href="{{ route('bestty.index') }}" method="GET">診断をやめる</a></li>
           <li><a href="{{ route('bestty.howto') }}" method="GET">使い方</a></li>
-          <li><a href="#">ちんちん</a></li>
         </ul>
       </div>
 
