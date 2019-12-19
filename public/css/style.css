@@ -142,10 +142,10 @@
     width: 200px;
   }
   
-  .menuWrapper {
+  .menuBtn {
     z-index: 2000;
   }
-  
+
     /* メニューアイテムのアニメーション */
   .on.menuWrapper + #menu li:nth-child(1) a{
     animation: slideIn .3s .5s forwards;

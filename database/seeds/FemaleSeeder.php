@@ -23,7 +23,7 @@ class FemaleSeeder extends Seeder
 
             ],
             [
-                'body'=>'2.The good thing that you think is that he is calm and firm.',
+                'body'=>'2.The good thing that you think is that she is calm and firm.',
                 'Ya'=>'1',
                 'Yb'=>'3',
                 'Yc'=>'2',
