@@ -54,10 +54,10 @@
           <!-- /.col-md-4 -->
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="{{ asset('img/watch.jpg') }}" alt="" class="card-img-top">
+              <img src="{{ asset('img/shige.jpg') }}" alt="" class="card-img-top">
               <div class="card-body text-center">
-                <h3 class="card-title">Watches</h3>
-                <a href="https://www.amazon.co.jp/%E3%82%B3%E3%83%BC%E3%83%81-%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%82%B9-COACH-14503117-%E3%83%AD%E3%83%BC%E3%82%BA%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89/dp/B07KYHRLPC/ref=sr_1_21?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E8%85%95%E6%99%82%E8%A8%88+%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%82%B9&qid=1576461969&sr=8-21" class="card-text">[コーチ]腕時計 レディース COACH 14503117 クリーム シルバー ローズゴールド [並行輸入品]</a>
+                <h3 class="card-title">Human</h3>
+                <a href="https://www.amazon.co.jp/%E3%82%B3%E3%83%BC%E3%83%81-%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%82%B9-COACH-14503117-%E3%83%AD%E3%83%BC%E3%82%BA%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89/dp/B07KYHRLPC/ref=sr_1_21?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E8%85%95%E6%99%82%E8%A8%88+%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%82%B9&qid=1576461969&sr=8-21" class="card-text">[Shige] #made in japan #ex drug dealer #protein </a>
               </div>
             </div>
           </div>
