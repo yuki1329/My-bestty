@@ -89,7 +89,8 @@ $('.menuWrapper').on('click', function(){
       var id =  $(this).attr("id");
       if (id < 9){
       var nextIdNum = parseInt(id) + 1;
-      // alert(nextIdNum);
+      // alert(id);
+      //       alert(nextIdNum);
       
       
       var position = $("#q-box-" + nextIdNum).offset().top;
