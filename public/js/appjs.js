@@ -87,8 +87,9 @@ $('.menuWrapper').on('click', function(){
 
     $('.radio-btn').on('click', function(){
       var id =  $(this).attr("id");
-      if (id < 9){
-      var nextIdNum = parseInt(id) + 1;
+      
+      
+      var nextIdNum = parseInt(id) + 10;
       // alert(id);
       //       alert(nextIdNum);
       
@@ -96,5 +97,5 @@ $('.menuWrapper').on('click', function(){
       var position = $("#q-box-" + nextIdNum).offset().top;
       
       $('html, body').animate({scrollTop:parseInt(position) - 150});
-      }
+      
   });
