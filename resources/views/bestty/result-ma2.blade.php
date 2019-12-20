@@ -30,12 +30,12 @@
 {{-- 内容 --}}
 <div class="result-all">
   <div id="result-top">
-  <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
+  <h1>The type of person you want to give・・・・</h1>
       <img src="{{ asset('img/R-ryousuke.jpg') }}" class="result-img" alt="結果画面の画像" >
-      <h1 class="result-text">イケイケ系男子</h1>
+      <h1 class="result-text">Party People</h1>
   </div>
   <div class="result-ex">
-    <h4>イケイケ系男子はパーティーやイベントが大好き！<br>流行や人気なものに敏感な彼らにはこんなものがオススメ！</h4>
+    <h2>Party People loves party!</h2>
   </div>
         <!-- container -->
         <div class="container mt-1">

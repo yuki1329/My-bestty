@@ -22,20 +22,20 @@
       </span>
     </div>
     <ul id="menu">
-      <li><a href="{{ route('bestty.index') }}" method="GET">ホームへ戻る</a></li>
-      <li><a href="{{ route('bestty.howto') }}" method="GET">使い方</a></li>
+      <li><a href="{{ route('bestty.index') }}" method="GET">home</a></li>
+      <li><a href="{{ route('bestty.howto') }}" method="GET">How to</a></li>
     </ul>
   </div>
 
 {{-- 内容 --}}
 <div class="result-all">
   <div id="result-top">
-  <h1>あなたがプレゼントしたい人のタイプは・・・・</h1>
+  <h1>The type of person you want to give・・・・</h1>
       <img src="{{ asset('img/baby2.jpg') }}" class="result-img" alt="結果画面の画像" >
-      <h1 class="result-text">オトナ女子</h1>
+      <h1 class="result-text">Mature girl</h1>
   </div>
   <div class="result-ex">
-    <h4>オトナ女子は仕事や勉強をしっかりこなすお姉さん的存在！<br>長く使えるシンプルなものを好む彼女たちにはこんなものがオススメ！</h4>
+    <h2>She is down to earth</h2>
   </div>
        <!-- container -->
        <div class="container mt-1">
